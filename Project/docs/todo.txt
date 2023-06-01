@@ -1,0 +1,172 @@
+single hotkey keys sometimes stuck? sunbeam
+type isn't saved on headers...
+
+tracer search: keyboard focus should be on the input field
+
+
+implement {$nonops} so it rewrites the instruction to force the correct size and then reassembles from the start
+
+
+dbvm cloak: amd pageboundaries (maybe single step issue)
+test nmi's in windows in dbvm
+
+mac: hexview: implement meta+v for pasting
+mac: all modules are seen as 32-bit on a aarch64 target
+mac: aarch64 disassembler (addresses/labels should use the symbolhander)
+
+
+fontcolor in ultimap2 edit fields for seconds and filesize is wrong in dark mode
+
+check if the system uses 'efficient' cores and if so, do not force the scans to use those affinity
+
+luacode and ccode in macos (ccode likely uses windows calling convention)
+
+
+ultimap2 default view is too small for high dpi
+
+import list of instructions from "what accesses this" into ultimap
+
+
+frmregisters seems to have the wrong values
+autoassemble execute seems to do a full symbollist enum ?
+assembling in thuimbmode seems to not negate the extra bit
+thumb might not be correct
+
+add option for big endian pointer support
+
+
+tcc: not all code is debugable/visible(see script at https://pastebin.com/MZGaJ0Su )
+
+break and trace compare gives access violation  (unreprocducable)
+fix/rewrite thumb disAssembler
+
+
+{$luacode sync} parameter
+{$luacode newluastate} parameter
+
+luacode for mac
+luacode for ceserver (create a socket in the target which connects to ceserver, and ceserver connects to ce)
+
+lua editor AND aa editor: when inside a string, the {$asm} inside the string disables lua mode.  Boith the parser and AA need to deal with that
+
+add symbol path configuration
+structure spider: dpi fixes (default window size and base address edit fields)
+structure spider: doubleclick on column 2 value should make you go there
+
+mac/aarch64: show S registers (similar to xmm)
+mac:pointerscan sort by offset
+mac: memview/disassembler updates in a seperate thread and only render when done
+
+hexview: Select bytes->show disassembly (easy shortcut)
+
+vehdebug on tutorial-i386 fails (dll inject crashes tutorial)
+.net info: invoke method: String  (need to create a sting object from string)
+
+.net info: doubleclick on type of a field brings you to that type (in a new window, and if the value field is valid, set the address to that value)
+.net info: mono: editing the System.Boolean type doesn't work
+.net info: spawn the structure dissect window from the field list
+.net info: Rightclick option: copy value to clipboard
+
+
+
+structure dissect : Nested structure
+
+Hexview typelink/colors
+
+autoassembler coloring fix
+
+enumsymbols lua command: add way to figure out duplicates
+
+ce debug and dbvm: changeregonbp , add option for 1 time only
+
+mono: .net info search for mono: search for result/parameter
+mono/il2cpp: debugging, resuming and then activating mono seems to give an error
+addresslist: add groupboxs like entries that auto deactivate the other entries on activate first
+
+when there is an aa error in a memoryrecord, rightclick any other record shows it as well
+
+aobscan non-zero flag (-2)
+
+
+tracer search: Skips calls taken (like call qword [xxx])
+
+hotkeys: Hotkey while down addresslist record hotkey (with a restore to set or saved value)
+
+
+ceshare request window: 
+  make scrolling smooth
+  add option to delete your own request
+
+ceshare: publish has colors in dark mode even in light mode
+
+
+saved scanresults are not deleted on new scan
+
+
+ceshare initial description field is too small (autosize issue I guess)
+
+pointerscan: make the last offset tabable
+
+
+form editor:  in dark mode the edit fields are white text with white background
+
+
+Mac: Hex editing files
+
+
+paging window is not dpi aware
+manual staktrace is not dpi aware, not 64-bit aware, and buggy
+network connect display is not dpi aware
+
+{$luacode} might like the allocated memory addresses afterwards  (perhaps generate a table with these variables inside the ref can later be filled in)
+
+DPI: symbol config address field is not correct
+
+DBVM: Add a "start record all PA access"  "stop record all PA access" which records the PA, VA, CR3, CS:RIP for each access
+DBVM: Add a local break and trace (not undetected single step flag)
+
+
+DBVM: give the "find what this instruction accessess" it's own dbvm config window so it doesn't override the userdefined options
+
+'sub rsp,20+(4*8)+(6*8)'
+set value to -888,12  (not -888.12) and see what happens
+
+
+structure dissect: 
+  delete all structures sometimes AV's (no idea how to reproduce)
+
+lua function call: make it generate a full routine based on parameters to get, including stacksafe call
+
+
+
+memview paste: paste for specific displaytype
+memview->rightclick while debugging: Change eip to position, run till position in the context menu as well
+
+
+trainergen: get rid of tcheat and just use labels
+
+graphical memory view: 
+  change format makes it black sometimes(loses position ?)
+  sometimes the x position is not 0, but can't be changed back
+
+graphical tutorial: continue with it
+
+linux: make a 32-bit linux build with .so injection support
+memscan: Don't combine the scanresults into a single file. Leave them split up (skip: for 6.7 or 7.0)
+
+pseudocode: continue with it
+mac version: work on it
+
+define from debug data: Use a ownerdata list instead (or better, a whole new interface where you can see beforehand the layout)
+
+structure compare: Closed a previous structure compare followed by reopening a new one and loading a file, messes up the popupmode and other stuff
+pointerscan: generating pointermap should also check terminated
+pointerscan: when suspending a scan, CE closed itself(crash)
+
+test and fix the d3dhook stuff and trainer generator.  (perhaps dx12 support as well)
+
+
+a timer causing a lua_error will eventually show c stack overflow
+
+
+mono plugin: When enumerating classes instead of getting a class get the typedefs only and get the info from the typedef info until an actual class is requested/expanded

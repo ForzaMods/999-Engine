@@ -1,0 +1,173 @@
+LazarusResources.Add('TFoundCodeDialog','FORMDATA',[
+  'TPF0'#16'TFoundCodeDialog'#15'FoundCodeDialog'#4'Left'#3#230#4#6'Height'#3
+  +#143#1#3'Top'#3#172#1#5'Width'#3#174#1#11'BorderIcons'#11#12'biSystemMenu'#0
+  +#7'Caption'#6'2The following opcodes changed the selected address'#12'Client'
+  +'Height'#3#143#1#11'ClientWidth'#3#174#1#7'OnClose'#7#9'FormClose'#12'OnClos'
+  +'eQuery'#7#14'FormCloseQuery'#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11
+  +'FormDestroy'#6'OnShow'#7#8'FormShow'#8'Position'#7#17'poOwnerFormCenter'#10
+  +'LCLVersion'#6#7'2.2.2.0'#0#6'TPanel'#6'Panel1'#4'Left'#3'&'#1#6'Height'#3
+  +#142#1#3'Top'#2#0#5'Width'#3#136#0#5'Align'#7#7'alRight'#8'AutoSize'#9#10'Be'
+  +'velOuter'#7#6'bvNone'#12'ClientHeight'#3#142#1#11'ClientWidth'#3#136#0#8'Ta'
+  +'bOrder'#2#0#0#6'TLabel'#11'Description'#4'Left'#2#0#6'Height'#3#218#0#3'Top'
+  +#3#140#0#5'Width'#3#136#0#5'Align'#7#8'alClient'#9'Alignment'#7#8'taCenter'#8
+  +'AutoSize'#8#7'Caption'#6#7'example'#11'ParentColor'#8#8'WordWrap'#9#0#0#6'T'
+  +'Panel'#6'Panel2'#4'Left'#2#0#6'Height'#2'('#3'Top'#3'f'#1#5'Width'#3#136#0#5
+  +'Align'#7#8'alBottom'#8'AutoSize'#9#10'BevelOuter'#7#6'bvNone'#12'ClientHeig'
+  +'ht'#2'('#11'ClientWidth'#3#136#0#10'ParentFont'#8#8'TabOrder'#2#0#0#7'TButt'
+  +'on'#5'btnOK'#22'AnchorSideLeft.Control'#7#6'Panel2'#19'AnchorSideLeft.Side'
+  +#7#9'asrCenter'#21'AnchorSideTop.Control'#7#6'Panel2'#4'Left'#2#31#6'Height'
+  +#2#30#3'Top'#2#5#5'Width'#2'K'#8'AutoSize'#9#17'BorderSpacing.Top'#2#5#20'Bo'
+  +'rderSpacing.Bottom'#2#5#6'Cancel'#9#7'Caption'#6#2'OK'#21'Constraints.MinHe'
+  +'ight'#2#30#20'Constraints.MinWidth'#2'K'#7'Default'#9#7'OnClick'#7#10'btnOK'
+  +'Click'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#6'TPanel'#6'Panel3'#4'Left'#2
+  +#0#6'Height'#3#140#0#3'Top'#2#0#5'Width'#3#136#0#5'Align'#7#5'alTop'#8'AutoS'
+  +'ize'#9#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#140#0#11'ClientWidth'#3
+  +#136#0#10'ParentFont'#8#8'TabOrder'#2#1#0#7'TButton'#12'btnExtraInfo'#22'Anc'
+  +'horSideLeft.Control'#7#6'Panel3'#21'AnchorSideTop.Control'#7#16'btnAddToCod'
+  +'eList'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#6
+  +'Panel3'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#5#6'Height'#2#30#4
+  +'Hint'#6'WShows more information about the state of the system when that ins'
+  +'truction got executed'#3'Top'#2'n'#5'Width'#2'~'#7'Anchors'#11#5'akTop'#6'a'
+  +'kLeft'#7'akRight'#0#8'AutoSize'#9#18'BorderSpacing.Left'#2#5#17'BorderSpaci'
+  +'ng.Top'#2#5#19'BorderSpacing.Right'#2#5#7'Caption'#6#16'More information'#21
+  +'Constraints.MinHeight'#2#30#20'Constraints.MinWidth'#2'd'#7'Enabled'#8#7'On'
+  +'Click'#7#17'btnExtraInfoClick'#10'ParentFont'#8#14'ParentShowHint'#8#8'Show'
+  +'Hint'#9#8'TabOrder'#2#0#0#0#7'TButton'#16'btnAddToCodeList'#22'AnchorSideLe'
+  +'ft.Control'#7#6'Panel3'#21'AnchorSideTop.Control'#7#19'btnOpenDisassembler'
+  +#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#6'Panel'
+  +'3'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#5#6'Height'#2#30#4'Hin'
+  +'t'#6'UThe selected addresses will be added to the code list in the advanced'
+  +' options window.'#3'Top'#2'K'#5'Width'#2'~'#7'Anchors'#11#5'akTop'#6'akLeft'
+  +#7'akRight'#0#8'AutoSize'#9#18'BorderSpacing.Left'#2#5#17'BorderSpacing.Top'
+  +#2#5#19'BorderSpacing.Right'#2#5#7'Caption'#6#19'Add to the codelist'#21'Con'
+  +'straints.MinHeight'#2#30#20'Constraints.MinWidth'#2'd'#7'Enabled'#8#7'OnCli'
+  +'ck'#7#21'btnAddToCodeListClick'#10'ParentFont'#8#14'ParentShowHint'#8#8'Sho'
+  +'wHint'#9#8'TabOrder'#2#1#0#0#7'TButton'#19'btnOpenDisassembler'#22'AnchorSi'
+  +'deLeft.Control'#7#6'Panel3'#21'AnchorSideTop.Control'#7#18'btnReplacewithno'
+  +'ps'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#6'P'
+  +'anel3'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#5#6'Height'#2#30#4
+  +'Hint'#6'TThis will open the memoryview and bring the disassemblerview to th'
+  +'e selected address'#3'Top'#2'('#5'Width'#2'~'#7'Anchors'#11#5'akTop'#6'akLe'
+  +'ft'#7'akRight'#0#8'AutoSize'#9#18'BorderSpacing.Left'#2#5#17'BorderSpacing.'
+  +'Top'#2#5#19'BorderSpacing.Right'#2#5#7'Caption'#6#17'Show disassembler'#21
+  +'Constraints.MinHeight'#2#30#20'Constraints.MinWidth'#2'd'#7'Enabled'#8#7'On'
+  +'Click'#7#24'btnOpenDisassemblerClick'#10'ParentFont'#8#14'ParentShowHint'#8
+  +#8'ShowHint'#9#8'TabOrder'#2#2#0#0#7'TButton'#18'btnReplacewithnops'#22'Anch'
+  +'orSideLeft.Control'#7#6'Panel3'#21'AnchorSideTop.Control'#7#6'Panel3'#23'An'
+  +'chorSideRight.Control'#7#6'Panel3'#20'AnchorSideRight.Side'#7#9'asrBottom'#4
+  +'Left'#2#5#6'Height'#2#30#4'Hint'#6'LThis will replace the selected addresse'
+  +'s with code that does nothing. (Nops)'#3'Top'#2#5#5'Width'#2'~'#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#9#18'BorderSpacing.Left'#2#5
+  +#17'BorderSpacing.Top'#2#5#19'BorderSpacing.Right'#2#5#7'Caption'#6#7'Replac'
+  +'e'#21'Constraints.MinHeight'#2#30#20'Constraints.MinWidth'#2'd'#7'Enabled'#8
+  +#7'OnClick'#7#23'btnReplacewithnopsClick'#10'ParentFont'#8#14'ParentShowHint'
+  +#8#8'ShowHint'#9#8'TabOrder'#2#3#0#0#0#0#6'TPanel'#6'Panel4'#4'Left'#2#0#6'H'
+  +'eight'#3#142#1#3'Top'#2#0#5'Width'#3'&'#1#5'Align'#7#8'alClient'#10'BevelOu'
+  ,'ter'#7#6'bvNone'#12'ClientHeight'#3#142#1#11'ClientWidth'#3'&'#1#8'TabOrder'
+  +#2#1#0#9'TListView'#13'FoundCodeList'#4'Left'#2#0#6'Height'#3#236#0#3'Top'#2
+  +#0#5'Width'#3'&'#1#5'Align'#7#8'alClient'#19'AutoWidthLastColumn'#9#7'Column'
+  +'s'#14#1#7'Caption'#6#5'Count'#8'MinWidth'#2'('#0#1#7'Caption'#6#11'Instruct'
+  +'ion'#5'Width'#3#250#0#0#0#13'HideSelection'#8#11'MultiSelect'#9#10'ParentFo'
+  +'nt'#8#9'PopupMenu'#7#9'pmOptions'#8'ReadOnly'#9#9'RowSelect'#9#10'ScrollBar'
+  +'s'#7#10'ssVertical'#8'TabOrder'#2#0#9'ViewStyle'#7#8'vsReport'#13'OnColumnC'
+  +'lick'#7#24'FoundCodeListColumnClick'#10'OnDblClick'#7#21'FoundcodeListDblCl'
+  +'ick'#12'OnSelectItem'#7#23'FoundCodeListSelectItem'#0#0#5'TMemo'#5'mInfo'#4
+  +'Left'#2#0#6'Height'#3#157#0#3'Top'#3#241#0#5'Width'#3'&'#1#5'Align'#7#8'alB'
+  +'ottom'#11'ParentColor'#9#8'ReadOnly'#9#10'ScrollBars'#7#6'ssBoth'#8'TabOrde'
+  +'r'#2#1#8'WordWrap'#8#0#0#9'TSplitter'#9'Splitter1'#6'Cursor'#7#8'crVSplit'#4
+  +'Left'#2#0#6'Height'#2#5#3'Top'#3#236#0#5'Width'#3'&'#1#5'Align'#7#8'alBotto'
+  +'m'#12'ResizeAnchor'#7#8'akBottom'#0#0#0#6'TLabel'#17'dbvmMissedEntries'#4'L'
+  +'eft'#2#0#6'Height'#2#1#3'Top'#3#142#1#5'Width'#3#174#1#5'Align'#7#8'alBotto'
+  +'m'#11'ParentColor'#8#7'Visible'#8#0#0#10'TPopupMenu'#9'pmOptions'#6'Images'
+  +#7#12'fcdImageList'#7'OnPopup'#7#14'pmOptionsPopup'#4'Left'#2'@'#3'Top'#2'@'
+  +#0#9'TMenuItem"ReplacewithcodethatdoesnothingNOP1'#7'Caption'#6')Replace wit'
+  +'h code that does nothing (NOP)'#10'ImageIndex'#2#3#7'OnClick'#7#23'btnRepla'
+  +'cewithnopsClick'#0#0#9'TMenuItem!Showthisaddressinthedisassembler1'#7'Capti'
+  +'on'#6'%Show this address in the disassembler'#10'ImageIndex'#2#5#8'ShortCut'
+  +#3'D@'#7'OnClick'#7#24'btnOpenDisassemblerClick'#0#0#9'TMenuItem'#17'Addtoth'
+  +'ecodelist1'#7'Caption'#6#19'Add to the codelist'#10'ImageIndex'#2#0#7'OnCli'
+  +'ck'#7#21'btnAddToCodeListClick'#0#0#9'TMenuItem'#9'MoreInfo1'#7'Caption'#6#9
+  +'More Info'#7'Default'#9#10'ImageIndex'#2#6#7'OnClick'#7#17'btnExtraInfoClic'
+  +'k'#0#0#9'TMenuItem'#9'MenuItem4'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#22'miFi'
+  +'ndWhatCodeAccesses'#7'Caption'#6'*Find out what addresses this code accesse'
+  +'s'#7'OnClick'#7#27'miFindWhatCodeAccessesClick'#0#0#9'TMenuItem'#18'miFindW'
+  +'hatAccesses'#9'AutoCheck'#9#7'Caption'#6':Check if found opcodes also acces'
+  +'s other addresses (max 8)'#19'ShowAlwaysCheckable'#9#7'OnClick'#7#23'miFind'
+  +'WhatAccessesClick'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6#1'-'#0#0#9'TMenuItem'
+  +#9'MenuItem1'#7'Caption'#6#10'Select all'#10'ImageIndex'#2#4#8'ShortCut'#3'A'
+  +'@'#7'OnClick'#7#14'MenuItem1Click'#0#0#9'TMenuItem'#9'MenuItem2'#7'Caption'
+  +#6#1'-'#0#0#9'TMenuItem'#12'miSaveTofile'#7'Caption'#6#22'Save selection to '
+  +'file'#10'ImageIndex'#2#2#7'OnClick'#7#17'miSaveTofileClick'#0#0#9'TMenuItem'
+  +#25'Copyselectiontoclipboard1'#7'Caption'#6#27'Copy selection to clipboard'
+  +#10'ImageIndex'#2#1#8'ShortCut'#3'C@'#7'OnClick'#7#30'Copyselectiontoclipboa'
+  +'rd1Click'#0#0#0#11'TSaveDialog'#11'SaveDialog1'#6'Filter'#6#24'Text files ('
+  +'*.txt)|*.txt'#4'Left'#2'H'#3'Top'#3#152#0#0#0#10'TImageList'#12'fcdImageLis'
+  +'t'#4'Left'#3#198#0#3'Top'#3#153#0#6'Bitmap'#10#19#6#0#0'Lz'#7#0#0#0#16#0#0#0
+  +#16#0#0#0#253#5#0#0#0#0#0#0'x'#218#237#152'{L[U'#28#199'k$'#14'qn$'#162'Y'#12
+  +'FgL'#228#15#19'K'#199'2'#141#24'a'#134#132#24#254#152#163#224'@2H4C'#152#12
+  +#134#200#134#219#160'N'#150'U'#198#28'le+'#235'x4`;'#214#2#21#183#193#160#213
+  +#186#150#133#247'K'#200'H,'#180'@q'#20#154'Q'#30'c'#16#30#199#243'+'#222'z[n'
+  +#239#250#192#201#18#155'|s'#207#185#191#223#231'<'#127#167#231#158#131#16'b'
+  +#160#141#168'Y'#195#22'$'#10#211#153#5'ig'#249#153'?'#189'Q'#225#14'd'#22#164
+  +'7:'#15'}'#4'?B'#247#186'^'#181#240#144'&'#219#168#198#3#198#137#240#127#148
+  +#192'w'#189'yw'#219#255#164#207#223'z'#199#239'cR\\'#156#154#195#225#232#168
+  +'t'#228#200#17#29#159#207#143#164#227#193#15#209#252'N'#158'<9'''#151#203'w'
+  +#184#202#175#172#172#160#200#200'H'#141#171'<'#252#146#147#147'Mt'#252#194
+  +#194#2#26#26#26'2'#171#182#182#22'%%%'#161#172#172','#139#240#24'-'#197#199
+  +#199'7'#129'"""n'#142#141#141'm'#181#173#127'ii'#201','#133'B'#129#148'J'#165
+  +#221#182#24#141'F'#20#29#29'];??'#255'4U'#253#21#21#21#180'<'#252#250#250#250
+  +#160']G'#9#30#151#133#6#7#7#205#18#137'D'#143#228#225#135#231#150'O'#199#207
+  +#205#205#161#201#201#201'52'#153'Lkxr'#185#192#130#160#204#233#233#233'5'#154
+  +#153#153'q'#136#135'q"'#218'D'#150'N'#167#179#226'cbb'#20'8'#221'O(**j'#24
+  +#248#251#247#239'['#198#148#172#145#145#17'+'#222'V'#152#13#2#30#218#138#231
+  +'y'#141#12#6#131'C<'#196#2#204'+'#149#28#225#29#157'?'#10'>0<<'#220#4'1O'#167
+  +#196#196#196#31#192#191'D'#200'@'#133'|'#6':'#127'vU7j'#249#232#23#149#202'J'
+  +'7'#27#26#144'H"A'#245#191#202#16#248'7'#183#164#164#17#245'9'#194#159#224'p'
+  +#16#131#129'm'#183'$f'#158'\'#134#171'<Q'#134'#|aQ'#17#10#143#136'@u'#242'J+'
+  +#158#144'@'#192'@'#23#206#173#170#170#250'k'#212#160#252#137'R7n'#229'P'#242
+  +'O'#186#202'E^HR'#249#178'S'#2#134#224';'#187#18#240'T'#246'8%`'#200#252#200
+  +#200'm'#212#222'~'#195'!'#129#175'-'#255'_'#215'o2'#181#160#209'Q'#149'C'#2
+  ,#223#245#228#171'd'#219#145#242'v'#168'S'#2#6#216#141#250']'#242'8'#133#247
+  +#26#31','#243'7'#30#222#223#188'!'#15#233#217#217'Y'#15#188#223#248#18'{5~'
+  +#191#9#231'_'#193#251#192#22#155'o'#168'R__'#223#187#216#255#25#188#159'q /'
+  +#149'J'#131#189#189#189#13#248#127#203#132#159'z'#252#13#20#16#20#20't'#21
+  +#167'M'#248#221#131#148#148#148#12'2'#15#255'oiii'#25#192#239#219#183'O'#136
+  +#253#134#143#31'?~'#8#239'#`?'#235#231#231#215#10'<'#216#175'\'#185#178'g'
+  +#243#230#205#195'd>  @'#225#225#225#241#128#205'f'#151'`?9'#148#167#209'h^'#4
+  +';'#174'{'''#206'/'#3#31#24#24#168'd2'#153'*'#252#148#145'y(744'#180#28#252
+  +#194#194#194#164#248#185'XWW'#247'.'#216#241'7`4'#174'O'#15'<f'#213#217#217
+  +#217#7#241'X<g'#203#227#250#182'yzzNA'#30#239#203'<'#31#31#31#29'~'#230'c'
+  +#214#136#205'ID'#251'm'#199'_&'#147#237#129'}'#15#210'x'#220'>'#130'<'#238
+  +#247'S'#184#159#225#216#253#24#140'%'#216'JKK'#217#132#223#255#218'8'#194'q'
+  +#155#139#227#193#11#158#253#253#253'~\.'#247#168'Z'#173#14#132'y'#4'A'#26#222
+  +#129#141#236'KZ'#127'^.'#172'Y/r'#253#240#196'1'#3#235#245'5:'#129#15#153#1
+  +'A'#187#224#9'v'#249'a'#6#162#19#248#144#25#16#244#205'Y'#158'`@0>'#206#242#4
+  +'C'#172#31'gy'#130'Y'#15#222#221#246#187';~'#238#206#159#187#241#179#30#241
+  +#235#206#250'Yo'#233#245#250#23#138'2"*['#154#26#223'v'#133#239#237#237#221
+  +#174#254#198#127'Ry'#148'i|T'#25#215#197#151'?'#17'g'#178#175#218'*7'#150#213
+  +'='#157#207'DPFgG'#219#155#246#248#138#243#199'2'#197#159'o'#31#163#144#9#248
+  +#129'So-'#215#253'\'#21#236#228#220'l'#189#150#190#187#11#216'Ja'#193'~g'#251
+  +#223#214#214#246#134' '#246'u'#163'3,'#143#199';-'#145'H'#242#28#17#248#218
+  +#242'b'#177#216#4#231#243#241#241'qZ'#193#249#29'|'#169'x8'#223#226#24#163
+  +#213#196#196#132']~tt'#20#245#244#244#208#10#206#207#246#248#169#169')'#202
+  +';'#7#178#224'\n'#143#199'q'#139':;;i'#5'}'#180#199'S'#221'WP'#201#157#250
+  +#237#245'?55u'#8#222';"'#240#253#183#214'>'#142#143'M'#29#245#162#200'V'#193
+  +#193#203#154#162'X9'#150#162#189#232'KAw'#131'('#10#219'<'#233#216#150#218#31
+  +'?'#254#253#212'.=qo'#170#203#251#0'i'#243#130'-'#247#198'wO'#239#186'w'#167
+  +#166#152#242'>Q^'#148#149'1w'#193#223#226#219'''<'#132#22#23#23#205#247'('
+  +#189'e_Y'#222#207#23#248'#'#149#144#243'-'#153'm'#186'.d?'#228#249'['#221'Q'
+  +#15'v(,w%'#131']*+'#219#2'.'#163'Qv'#249#211#191#251#251'l?'#247#157'{'#182
+  +'w'#220#189#21''',|'#175'4{'#205#29#248#31#220#157'F'#131'a'#236#249#230#26
+  +#193'~'#170';'#242#165'K,'#164#225#179#145#166'0'#18'-^dQ'#222#163'7W'#23#28
+  +#232')N,'#167#178#25'y'#239'!mU&'#210'Vg'#161#9#222#251#148'|'#143#224'3ikN'
+  +#168#154#202#166'-;`i'#191'V'#156'L'#201'wpww4'#159#14#185#227'*'#223#157#243
+  +'aW_q'#252'5W'#249#174#139'15M'#210#252#4'W'#249#166#138'3'#135#199#13'c'#222
+  +#131'\'#150#201'Y^'#199'e'#206#234#135'u'#230's^'#163'$'#255#224#242'%'#150
+  +#195#252#10#159#133#212#226#156'T"'#254#224#140'V'#159#255#5#127#153#255'O'
+  +#25#3#197'q'#22'~'#160','#193#138#253#173' '#161#4#24'r'#12'C^%'#202'I'#25
+  +#254#158'9'#187#26#231','#164'='#31'b'#214#195#130#213'rG'#207#248#207')'#133
+  +#223#165#195#217#200#222#26#28#210#14#188#212'Q'#153#155#222'zno'#189'&/D'
+  +#163#201#15#25'h'#207#219#219#208']'#157#155'1'#172#29#216'f'#235#255#23#165
+  +'s$'#225#0#0#6'TTimer'#20'timerEntryInfoUpdate'#8'Interval'#3#250#0#7'OnTime'
+  +'r'#7#25'timerEntryInfoUpdateTimer'#4'Left'#3#184#0#3'Top'#2'('#0#0#0
+]);

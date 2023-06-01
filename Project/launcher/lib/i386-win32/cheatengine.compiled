@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1420791944"/>
+  <Params Value=" -Twin32 -Pi386 -Rintel -MObjFPC -Scghi -O3 -OoREGVAR -Xs -XX -WG -l -vewnhibq &quot;-FiD:\desktop\desktop\cheat-engine-7.5\Cheat Engine\launcher\lib\i386-win32&quot; -FuD:\lazarus\components\lazutils\lib\i386-win32 -FuD:\lazarus\packager\units\i386-win32 &quot;-FuD:\desktop\desktop\cheat-engine-7.5\Cheat Engine\launcher\&quot; &quot;-FUD:\desktop\desktop\cheat-engine-7.5\Cheat Engine\launcher\lib\i386-win32\&quot; &quot;-FED:\desktop\desktop\cheat-engine-7.5\Cheat Engine\bin\&quot; &quot;-oD:\desktop\desktop\cheat-engine-7.5\Cheat Engine\bin\999 Engine Launcher.exe&quot; cheatengine.lpr"/>
+</CONFIG>

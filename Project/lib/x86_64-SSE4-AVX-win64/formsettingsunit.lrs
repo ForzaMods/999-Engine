@@ -1,0 +1,1043 @@
+LazarusResources.Add('TformSettings','FORMDATA',[
+  'TPF0'#13'TformSettings'#12'formSettings'#4'Left'#3#181#2#6'Height'#3's'#2#3
+  +'Top'#3#183#0#5'Width'#3'a'#3#8'AutoSize'#9#11'BorderIcons'#11#12'biSystemMe'
+  +'nu'#0#7'Caption'#6#21'Cheat Engine settings'#12'ClientHeight'#3's'#2#11'Cli'
+  +'entWidth'#3'a'#3#14'OnChangeBounds'#7#16'FormChangeBounds'#7'OnClose'#7#9'F'
+  +'ormClose'#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#6'OnS'
+  +'how'#7#8'FormShow'#8'Position'#7#16'poMainFormCenter'#10'LCLVersion'#6#7'2.'
+  +'2.2.0'#6'Scaled'#8#0#6'TPanel'#9'pnlConfig'#4'Left'#2#0#6'Height'#3'N'#2#3
+  +'Top'#2#0#5'Width'#3'a'#3#5'Align'#7#8'alClient'#8'AutoSize'#9#12'ClientHeig'
+  +'ht'#3'N'#2#11'ClientWidth'#3'a'#3#8'TabOrder'#2#0#0#9'TTreeView'#15'tvMenuS'
+  +'election'#4'Left'#2#1#6'Height'#3'L'#2#3'Top'#2#1#5'Width'#3#153#0#5'Align'
+  +#7#6'alLeft'#13'HideSelection'#8#6'Indent'#2#19#8'ReadOnly'#9#16'RightClickS'
+  +'elect'#9#10'ScrollBars'#7#10'ssVertical'#8'ShowRoot'#8#8'TabOrder'#2#0#8'To'
+  +'olTips'#8#8'OnChange'#7#21'tvMenuSelectionChange'#12'OnCollapsing'#7#25'tvM'
+  +'enuSelectionCollapsing'#7'Options'#11#17'tvoAutoItemHeight'#21'tvoKeepColla'
+  +'psedNodes'#11'tvoReadOnly'#19'tvoRightClickSelect'#14'tvoShowButtons'#12'tv'
+  +'oShowLines'#0#10'Items.Data'#10#173#1#0#0#249#255#255#255#2#0#10#0#0#0#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#1#0#0#0#0#0#0#0
+  +#1#16#0#0#0'General Settings'#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#255#0#0#0#0#0#0#0#0#0#5#0#0#0'Tools'#255#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#0#0#0#0#0#0#0#0#0#7#0#0#0'Hotkeys'#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#0#0#0#0#0#0#0#0
+  +#0#12#0#0#0'Unrandomizer'#255#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#0#0#0#0#0#0#0#0#0#13#0#0#0'Scan Settings'#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#0#0#0#0#0#0#0#0#0#7#0#0#0'Plugi'
+  +'ns'#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#0#0#0#0
+  +#0#0#0#0#0#9#0#0#0'Languages'#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#255#0#0#0#0#0#0#0#0#0#16#0#0#0'Debugger Options'#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#0#0#0#0#0#0#0#0#0#3#0#0#0'L'
+  +'ua'#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#0#0#0#0
+  +#0#0#0#0#0#5#0#0#0'Extra'#255#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#0#0#0#0#0#0#0#0#0#7#0#0#0'Signing'#0#0#12'TPageControl'#9'pcSet'
+  +'ting'#4'Left'#3#154#0#6'Height'#3'L'#2#3'Top'#2#1#5'Width'#3#198#2#10'Activ'
+  +'ePage'#7#12'ScanSettings'#5'Align'#7#8'alClient'#8'TabIndex'#2#3#8'TabOrder'
+  +#2#1#8'OnChange'#7#15'pcSettingChange'#0#9'TTabSheet'#15'GeneralSettings'#7
+  +'Caption'#6#16'General Settings'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3
+  +#190#2#0#10'TScrollBox'#10'ScrollBox1'#4'Left'#2#0#6'Height'#3'0'#2#3'Top'#2
+  +#0#5'Width'#3#190#2#18'HorzScrollBar.Page'#3#238#1#22'HorzScrollBar.Tracking'
+  +#9#18'VertScrollBar.Page'#3','#2#22'VertScrollBar.Tracking'#9#5'Align'#7#8'a'
+  +'lClient'#12'ClientHeight'#3','#2#11'ClientWidth'#3#169#2#8'TabOrder'#2#0#7
+  +'OnClick'#7#15'ScrollBox1Click'#0#6'TLabel'#7'Label11'#22'AnchorSideLeft.Con'
+  +'trol'#7#18'EditUpdateInterval'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'An'
+  +'chorSideTop.Control'#7#18'EditUpdateInterval'#18'AnchorSideTop.Side'#7#9'as'
+  +'rCenter'#4'Left'#3#234#0#6'Height'#2#15#3'Top'#3#14#2#5'Width'#2#16#7'Capti'
+  +'on'#6#2'ms'#11'ParentColor'#8#0#0#6'TLabel'#7'Label12'#22'AnchorSideLeft.Co'
+  +'ntrol'#7#18'EditFreezeInterval'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'A'
+  +'nchorSideTop.Control'#7#18'EditFreezeInterval'#18'AnchorSideTop.Side'#7#9'a'
+  +'srCenter'#4'Left'#3#234#0#6'Height'#2#15#3'Top'#3''''#2#5'Width'#2#16#7'Cap'
+  +'tion'#6#2'ms'#11'ParentColor'#8#0#0#6'TLabel'#7'Label13'#21'AnchorSideTop.C'
+  +'ontrol'#7#18'EditUpdateInterval'#18'AnchorSideTop.Side'#7#9'asrCenter'#23'A'
+  +'nchorSideRight.Control'#7#18'EditUpdateInterval'#4'Left'#2'a'#6'Height'#2#15
+  +#3'Top'#3#14#2#5'Width'#2'P'#7'Anchors'#11#5'akTop'#7'akRight'#0#19'BorderSp'
+  +'acing.Right'#2#4#7'Caption'#6#15'Update interval'#11'ParentColor'#8#0#0#6'T'
+  +'Label'#7'Label14'#21'AnchorSideTop.Control'#7#18'EditFreezeInterval'#18'Anc'
+  +'horSideTop.Side'#7#9'asrCenter'#23'AnchorSideRight.Control'#7#18'EditFreeze'
+  +'Interval'#4'Left'#2'f'#6'Height'#2#15#3'Top'#3''''#2#5'Width'#2'K'#7'Anchor'
+  +'s'#11#5'akTop'#7'akRight'#0#19'BorderSpacing.Right'#2#4#7'Caption'#6#15'Fre'
+  +'eze interval'#11'ParentColor'#8#0#0#6'TLabel'#7'Label18'#22'AnchorSideLeft.'
+  +'Control'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#23'editUpdatefoundInt'
+  +'erval'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#2#0#6'Height'#2#15#3'T'
+  +'op'#3'@'#2#5'Width'#3#177#0#7'Caption'#6'"Found address list update interva'
+  +'l'#11'ParentColor'#8#0#0#6'TLabel'#7'Label19'#22'AnchorSideLeft.Control'#7
+  +#23'editUpdatefoundInterval'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'Ancho'
+  +'rSideTop.Control'#7#23'editUpdatefoundInterval'#18'AnchorSideTop.Side'#7#9
+  +'asrCenter'#4'Left'#3#234#0#6'Height'#2#15#3'Top'#3'@'#2#5'Width'#2#16#7'Cap'
+  ,'tion'#6#2'ms'#11'ParentColor'#8#0#0#6'TLabel'#7'Label23'#22'AnchorSideLeft.'
+  +'Control'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#14'EditAutoAttach'#18
+  +'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#2#0#6'Height'#2#15#3'Top'#3#226#1
+  +#5'Width'#3#218#0#7'Caption'#6'''Automatically attach to processes named'#11
+  +'ParentColor'#8#0#0#6'TLabel'#7'Label24'#22'AnchorSideLeft.Control'#7#14'Edi'
+  +'tAutoAttach'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Contro'
+  +'l'#7#14'EditAutoAttach'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#3'p'#1
+  +#6'Height'#2#15#3'Top'#3#226#1#5'Width'#2'~'#18'BorderSpacing.Left'#2#5#7'Ca'
+  +'ption'#6#26'(Seperate entries with ; )'#11'ParentColor'#8#0#0#9'TCheckBox'
+  +#10'cbShowUndo'#22'AnchorSideLeft.Control'#7#10'ScrollBox1'#21'AnchorSideTop'
+  +'.Control'#7#10'ScrollBox1'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'Width'#2
+  +'w'#7'Caption'#6#16'Show undo button'#7'Checked'#9#5'State'#7#9'cbChecked'#8
+  +'TabOrder'#2#0#0#0#9'TCheckBox'#15'cbCenterOnPopup'#22'AnchorSideLeft.Contro'
+  +'l'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#17'cbUpdatefoundList'#18'An'
+  +'chorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'&'#5'W'
+  +'idth'#3#251#0#7'Caption'#6'*Center Cheat Engine when bringing to front'#7'C'
+  +'hecked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#1#0#0#5'TEdit'#18'EditUpdat'
+  +'eInterval'#22'AnchorSideLeft.Control'#7#23'editUpdatefoundInterval'#21'Anch'
+  +'orSideTop.Control'#7#18'cbAlwaysAutoAttach'#18'AnchorSideTop.Side'#7#9'asrB'
+  +'ottom'#4'Left'#3#181#0#6'Height'#2#23#4'Hint'#6'^The number of milliseconds'
+  +' that Cheat Engine will wait before refreshing the list of addresses'#3'Top'
+  +#3#10#2#5'Width'#2'5'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#2#4'T'
+  +'ext'#6#3'500'#0#0#5'TEdit'#18'EditFreezeInterval'#22'AnchorSideLeft.Control'
+  +#7#23'editUpdatefoundInterval'#21'AnchorSideTop.Control'#7#18'EditUpdateInte'
+  +'rval'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#3#181#0#6'Height'#2#23#4
+  +'Hint'#6'uThe number of milliseconds that Cheat Engine will wait before rese'
+  +'tting the frozen addresses to their original value.'#3'Top'#3'#'#2#5'Width'
+  +#2'5'#17'BorderSpacing.Top'#2#2#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrde'
+  +'r'#2#3#4'Text'#6#3'100'#0#0#9'TGroupBox'#9'GroupBox1'#22'AnchorSideLeft.Con'
+  +'trol'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#17'cbAlwaysForceLoad'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#10'ScrollB'
+  +'ox1'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2'<'#3'T'
+  +'op'#3#159#1#5'Width'#3#169#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8
+  +'AutoSize'#9#7'Caption'#6#21'Address list specific'#12'ClientHeight'#2'('#11
+  +'ClientWidth'#3#165#2#8'TabOrder'#2#4#0#9'TCheckBox'#14'cbShowAsSigned'#22'A'
+  +'nchorSideLeft.Control'#7#9'GroupBox1'#21'AnchorSideTop.Control'#7#9'GroupBo'
+  +'x1'#4'Left'#2#16#6'Height'#2#19#3'Top'#2#0#5'Width'#3#192#0#18'BorderSpacin'
+  +'g.Left'#2#16#7'Caption'#6'!Show values as if they are signed'#8'TabOrder'#2
+  +#0#0#0#9'TCheckBox'#17'cbsimplecopypaste'#22'AnchorSideLeft.Control'#7#14'cb'
+  +'ShowAsSigned'#21'AnchorSideTop.Control'#7#14'cbShowAsSigned'#18'AnchorSideT'
+  +'op.Side'#7#9'asrBottom'#4'Left'#2#16#6'Height'#2#19#3'Top'#2#19#5'Width'#2
+  +'W'#20'BorderSpacing.Bottom'#2#2#7'Caption'#6#12'Simple paste'#8'TabOrder'#2
+  +#1#0#0#0#9'TCheckBox'#17'cbUpdatefoundList'#22'AnchorSideLeft.Control'#7#10
+  +'ScrollBox1'#21'AnchorSideTop.Control'#7#10'cbShowUndo'#18'AnchorSideTop.Sid'
+  +'e'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'Width'#3'1'#1#7
+  +'Caption'#6'6Update the list of found addresses even after scanning'#7'Check'
+  +'ed'#9#7'OnClick'#7#22'cbUpdatefoundListClick'#5'State'#7#9'cbChecked'#8'Tab'
+  +'Order'#2#5#0#0#5'TEdit'#23'editUpdatefoundInterval'#22'AnchorSideLeft.Contr'
+  +'ol'#7#7'Label18'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Co'
+  +'ntrol'#7#18'EditFreezeInterval'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'An'
+  +'chorSideRight.Control'#7#18'EditUpdateInterval'#20'AnchorSideRight.Side'#7#9
+  +'asrBottom'#4'Left'#3#181#0#6'Height'#2#23#4'Hint'#6'dThe number of millisec'
+  +'onds that Cheat Engine will wait before refreshing the list of found addres'
+  +'ses'#3'Top'#3'<'#2#5'Width'#2'5'#18'BorderSpacing.Left'#2#4#17'BorderSpacin'
+  +'g.Top'#2#2#20'BorderSpacing.Bottom'#2#4#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#6#4'Text'#6#4'1000'#0#0#9'TCheckBox'#16'cbHideAllWindows'#22'An'
+  +'chorSideLeft.Control'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#15'cbCen'
+  +'terOnPopup'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19
+  +#3'Top'#2'9'#5'Width'#3#136#1#7'Caption'#6'FHide some/all windows instead of'
+  +' trying to bring cheat engine to front'#7'Checked'#9#7'OnClick'#7#21'cbHide'
+  +'AllWindowsClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#7#0#0#7'TButton'#19
+  +'btnExcludeProcesses'#22'AnchorSideLeft.Control'#7#16'cbHideAllWindows'#19'A'
+  +'nchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#16'cbHideAll'
+  +'Windows'#24'AnchorSideBottom.Control'#7#16'cbHideAllWindows'#21'AnchorSideB'
+  ,'ottom.Side'#7#9'asrBottom'#4'Left'#3#140#1#6'Height'#2#19#3'Top'#2'9'#5'Wid'
+  +'th'#2'Z'#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#8'AutoSize'#9#18'Bo'
+  +'rderSpacing.Left'#2#4#7'Caption'#6#7'More...'#20'Constraints.MinWidth'#2'Z'
+  +#7'OnClick'#7#24'btnExcludeProcessesClick'#8'TabOrder'#2#8#0#0#5'TEdit'#14'E'
+  +'ditAutoAttach'#22'AnchorSideLeft.Control'#7#7'Label23'#19'AnchorSideLeft.Si'
+  +'de'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#9'GroupBox1'#18'AnchorSideTo'
+  +'p.Side'#7#9'asrBottom'#4'Left'#3#220#0#6'Height'#2#23#4'Hint'#6'qType the n'
+  +'ame of the process you want to automatically open. Note: Only works when NO'
+  +' process has been opened yet'#3'Top'#3#222#1#5'Width'#3#143#0#18'BorderSpac'
+  +'ing.Left'#2#2#17'BorderSpacing.Top'#2#3#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#9#0#0#9'TCheckBox'#18'cbAlwaysAutoAttach'#22'AnchorSideLeft.Con'
+  +'trol'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#14'EditAutoAttach'#18'An'
+  +'chorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3#247#1#5
+  +'Width'#3'i'#1#17'BorderSpacing.Top'#2#2#7'Caption'#6'>Even autoattach when '
+  +'another process has already been selected'#8'TabOrder'#2#10#0#0#9'TCheckBox'
+  +#15'cbSaveWindowPos'#22'AnchorSideLeft.Control'#7#10'ScrollBox1'#21'AnchorSi'
+  +'deTop.Control'#7#21'cbOverrideDefaultFont'#18'AnchorSideTop.Side'#7#9'asrBo'
+  +'ttom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3#7#1#5'Width'#3#140#0#7'Caption'#6
+  +#21'Save window positions'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2
+  +#11#0#0#9'TCheckBox'#14'cbProcessIcons'#22'AnchorSideLeft.Control'#7#10'Scro'
+  +'llBox1'#21'AnchorSideTop.Control'#7#17'cbShowProcesslist'#18'AnchorSideTop.'
+  +'Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3'S'#1#5'Width'#3#188
+  +#0#7'Caption'#6'!Get process icons for processlist'#7'Checked'#9#7'OnClick'#7
+  +#19'cbProcessIconsClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#12#0#0#9'TChe'
+  +'ckBox'#14'cbShowMainMenu'#22'AnchorSideLeft.Control'#7#10'ScrollBox1'#21'An'
+  +'chorSideTop.Control'#7#16'cbShowallWindows'#18'AnchorSideTop.Side'#7#9'asrB'
+  +'ottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3'-'#1#5'Width'#2'q'#7'Caption'#6
+  +#14'Show main menu'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#13#0#0
+  +#9'TCheckBox'#21'cbOldPointerAddMethod'#22'AnchorSideLeft.Control'#7#10'Scro'
+  +'llBox1'#21'AnchorSideTop.Control'#7#16'cbHideAllWindows'#18'AnchorSideTop.S'
+  +'ide'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'L'#5'Width'#3'%'#1#7
+  +'Caption'#6'4Pointer adding: Append pointerline instead of insert'#8'TabOrde'
+  +'r'#2#14#0#0#9'TCheckBox'#16'cbShowallWindows'#22'AnchorSideLeft.Control'#7
+  +#10'ScrollBox1'#21'AnchorSideTop.Control'#7#15'cbSaveWindowPos'#18'AnchorSid'
+  +'eTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3#26#1#5'Width'
+  +#3#188#0#7'Caption'#6#31'Show all windows in the taskbar'#8'TabOrder'#2#15#0
+  +#0#9'TCheckBox'#17'cbShowProcesslist'#22'AnchorSideLeft.Control'#7#10'Scroll'
+  +'Box1'#21'AnchorSideTop.Control'#7#14'cbShowMainMenu'#18'AnchorSideTop.Side'
+  +#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3'@'#1#5'Width'#3#187#0#7
+  +'Caption'#6#30'Show process list in main menu'#8'TabOrder'#2#16#0#0#9'TCheck'
+  +'Box'#16'cbWriteLoggingOn'#22'AnchorSideLeft.Control'#7#10'ScrollBox1'#21'An'
+  +'chorSideTop.Control'#7#14'cbProcessIcons'#18'AnchorSideTop.Side'#7#9'asrBot'
+  +'tom'#4'Left'#2#0#6'Height'#2#19#4'Hint'#6']When enabled CE will record writ'
+  +'es done by the user and allows the user to undo those changes'#3'Top'#3'f'#1
+  +#5'Width'#3#184#0#7'Caption'#6#31'Enable write logging by default'#8'OnChang'
+  +'e'#7#22'cbWriteLoggingOnChange'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrd'
+  +'er'#2#17#0#0#6'TLabel'#6'Label8'#22'AnchorSideLeft.Control'#7#16'cbWriteLog'
+  +'gingOn'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7
+  +#16'cbWriteLoggingOn'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#3#189#0#6
+  +'Height'#2#15#3'Top'#3'h'#1#5'Width'#3#139#0#18'BorderSpacing.Left'#2#5#7'Ca'
+  +'ption'#6#28'Max log size (nr of entries)'#7'Enabled'#8#11'ParentColor'#8#0#0
+  +#5'TEdit'#15'edtWriteLogSize'#22'AnchorSideLeft.Control'#7#6'Label8'#19'Anch'
+  +'orSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#6'Label8'#18'An'
+  +'chorSideTop.Side'#7#9'asrCenter'#4'Left'#3'M'#1#6'Height'#2#23#3'Top'#3'd'#1
+  +#5'Width'#2'P'#18'BorderSpacing.Left'#2#5#7'Enabled'#8#8'TabOrder'#2#18#4'Te'
+  +'xt'#6#3'250'#0#0#9'TCheckBox'#21'cbOverrideDefaultFont'#22'AnchorSideLeft.C'
+  +'ontrol'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#10'cbDPIAware'#18'Anch'
+  +'orSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3#244#0#5
+  +'Width'#3#251#0#7'Caption'#6'.Override the default font (Requires a restart)'
+  +#8'OnChange'#7#27'cbOverrideDefaultFontChange'#8'TabOrder'#2#19#0#0#7'TButto'
+  +'n'#10'btnSetFont'#22'AnchorSideLeft.Control'#7#21'cbOverrideDefaultFont'#19
+  +'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#21'cbOverri'
+  +'deDefaultFont'#24'AnchorSideBottom.Control'#7#21'cbOverrideDefaultFont'#21
+  +'AnchorSideBottom.Side'#7#9'asrBottom'#4'Left'#3#251#0#6'Height'#2#19#3'Top'
+  ,#3#244#0#5'Width'#2'E'#7'Anchors'#11#5'akTop'#6'akLeft'#8'akBottom'#0#8'Auto'
+  +'Size'#9#7'Caption'#6#8'Set Font'#7'Enabled'#8#7'OnClick'#7#15'btnSetFontCli'
+  +'ck'#8'TabOrder'#2#20#0#0#9'TCheckBox'#10'cbDPIAware'#22'AnchorSideLeft.Cont'
+  +'rol'#7#10'ScrollBox1'#21'AnchorSideTop.Control'#7#24'cbDisableDarkModeSuppo'
+  +'rt'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'
+  +#3#225#0#5'Width'#3#175#0#7'Caption'#6#30'DPI Aware (Requires a restart)'#7
+  +'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#21#0#0#9'TGroupBox'#9'Grou'
+  +'pBox5'#22'AnchorSideLeft.Control'#7#21'cbOldPointerAddMethod'#21'AnchorSide'
+  +'Top.Control'#7#21'cbOldPointerAddMethod'#18'AnchorSideTop.Side'#7#9'asrBott'
+  +'om'#4'Left'#2#16#6'Height'#2'o'#3'Top'#2'_'#5'Width'#3#218#0#8'AutoSize'#9
+  +#18'BorderSpacing.Left'#2#16#7'Caption'#6#18'Table: Lua scripts'#12'ClientHe'
+  +'ight'#2'['#11'ClientWidth'#3#214#0#8'TabOrder'#2#22#0#12'TRadioButton'#15'm'
+  +'iLuaExecAlways'#22'AnchorSideLeft.Control'#7#9'GroupBox5'#21'AnchorSideTop.'
+  +'Control'#7#7'Label16'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'H'
+  +'eight'#2#19#3'Top'#2#15#5'Width'#2'9'#7'Caption'#6#6'Always'#8'TabOrder'#2#0
+  +#0#0#12'TRadioButton'#19'miLuaExecSignedOnly'#22'AnchorSideLeft.Control'#7#9
+  +'GroupBox5'#21'AnchorSideTop.Control'#7#15'miLuaExecAlways'#18'AnchorSideTop'
+  +'.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'"'#5'Width'#3#161
+  +#0#7'Caption'#6#26'Only when signed, else ask'#7'Checked'#9#8'TabOrder'#2#1#7
+  +'TabStop'#9#0#0#6'TLabel'#7'Label16'#22'AnchorSideLeft.Control'#7#9'GroupBox'
+  +'5'#21'AnchorSideTop.Control'#7#9'GroupBox5'#4'Left'#2#0#6'Height'#2#15#3'To'
+  +'p'#2#0#5'Width'#3#210#0#19'BorderSpacing.Right'#2#4#7'Caption'#6'*When a ta'
+  +'ble has a lua script, execute it:'#11'ParentColor'#8#0#0#12'TRadioButton'#12
+  +'miLuaExecAsk'#22'AnchorSideLeft.Control'#7#9'GroupBox5'#21'AnchorSideTop.Co'
+  +'ntrol'#7#19'miLuaExecSignedOnly'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Le'
+  +'ft'#2#0#6'Height'#2#19#3'Top'#2'5'#5'Width'#2'M'#7'Caption'#6#10'Always ask'
+  +#8'TabOrder'#2#2#0#0#12'TRadioButton'#14'miLuaExecNever'#22'AnchorSideLeft.C'
+  +'ontrol'#7#12'miLuaExecAsk'#21'AnchorSideTop.Control'#7#12'miLuaExecAsk'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'H'#5
+  +'Width'#2'3'#7'Caption'#6#5'Never'#8'TabOrder'#2#3#0#0#0#9'TCheckBox'#23'cbN'
+  +'everChangeProtection'#22'AnchorSideLeft.Control'#7#16'cbWriteLoggingOn'#21
+  +'AnchorSideTop.Control'#7#16'cbWriteLoggingOn'#18'AnchorSideTop.Side'#7#9'as'
+  +'rBottom'#4'Left'#2#0#6'Height'#2#19#4'Hint'#6#163'When enabled CE will neve'
+  +'r call "VirtualProtectEx" before it changes memory. This means that read-on'
+  +'ly memory can not be changed then.  (code is usually read only)'#3'Top'#3'y'
+  +#1#5'Width'#3#15#1#7'Caption'#6'+Never change memory protection when editing'
+  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#23#0#0#9'TCheckBox'#17'cbA'
+  +'lwaysForceLoad'#22'AnchorSideLeft.Control'#7#23'cbNeverChangeProtection'#21
+  +'AnchorSideTop.Control'#7#23'cbNeverChangeProtection'#18'AnchorSideTop.Side'
+  +#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#4'Hint'#18#218#0#0#0'W'#0'h'#0'e'
+  +#0'n'#0' '#0'e'#0'n'#0'a'#0'b'#0'l'#0'e'#0'd'#0' '#0'C'#0'E'#0''''#0's'#0' '
+  +#0'i'#0'n'#0't'#0'e'#0'r'#0'n'#0'a'#0'l'#0' '#0'i'#0'n'#0'j'#0'e'#0'c'#0't'#0
+  +'D'#0'L'#0'L'#0' '#0'r'#0'o'#0'u'#0't'#0'i'#0'n'#0'e'#0' '#0'w'#0'i'#0'l'#0
+  +'l'#0' '#0'n'#0'o'#0't'#0' '#0'u'#0's'#0'e'#0' '#0'l'#0'o'#0'a'#0'd'#0'l'#0
+  +'i'#0'b'#0'r'#0'a'#0'r'#0'y'#0' '#0'i'#0'n'#0' '#0't'#0'h'#0'e'#0' '#0't'#0
+  +'a'#0'r'#0'g'#0'e'#0't'#0' '#0'a'#0't'#0' '#0'a'#0'l'#0'l'#0' '#0'a'#0'n'#0
+  +'d'#0' '#0'a'#0'l'#0'w'#0'a'#0'y'#0's'#0' '#0'u'#0's'#0'e'#0' '#0'm'#0'a'#0
+  +'n'#0'u'#0'a'#0'l'#0' '#0'm'#0'a'#0'p'#0'p'#0'i'#0'n'#0'g'#0' '#0't'#0'o'#0
+  +' '#0'l'#0'o'#0'a'#0'd'#0' '#0't'#0'h'#0'e'#0' '#0'd'#0'l'#0'l'#0#13#0#10#0
+  +'('#0'W'#0'h'#0'e'#0'n'#0' '#0'd'#0'i'#0's'#0'a'#0'b'#0'l'#0'e'#0'd'#0' '#0
+  +'C'#0'E'#0' '#0'w'#0'i'#0'l'#0'l'#0' '#0's'#0't'#0'i'#0'l'#0'l'#0' '#0'u'#0
+  +'s'#0'e'#0' '#0'm'#0'a'#0'n'#0'u'#0'a'#0'l'#0' '#0'm'#0'a'#0'p'#0'p'#0'i'#0
+  +'n'#0'g'#0' '#0'w'#0'h'#0'e'#0'n'#0' '#0'n'#0'o'#0'r'#0'm'#0'a'#0'l'#0' '#0
+  +'d'#0'l'#0'l'#0' '#0'i'#0'n'#0'j'#0'e'#0'c'#0't'#0'i'#0'o'#0'n'#0' '#0'f'#0
+  +'a'#0'i'#0'l'#0's'#0')'#0#3'Top'#3#140#1#5'Width'#3#162#0#7'Caption'#6#25'Al'
+  +'ways force load modules'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#24
+  +#0#0#9'TCheckBox'#20'cbUseThreadForFreeze'#22'AnchorSideLeft.Control'#7#7'La'
+  +'bel12'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#7
+  +'Label12'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#3#2#1#6'Height'#2#19
+  +#3'Top'#3'%'#2#5'Width'#3#128#0#18'BorderSpacing.Left'#2#8#7'Caption'#6#21'U'
+  +'se thread for freeze'#8'TabOrder'#2#25#0#0#9'TCheckBox'#24'cbDisableDarkMod'
+  +'eSupport'#22'AnchorSideLeft.Control'#7#10'ScrollBox1'#21'AnchorSideTop.Cont'
+  +'rol'#7#9'GroupBox5'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Hei'
+  +'ght'#2#19#3'Top'#3#206#0#5'Width'#3#8#1#7'Caption'#6'.Disable Dark Mode sup'
+  ,'port (Requires a restart)'#8'TabOrder'#2#26#0#0#0#0#9'TTabSheet'#9'tsHotkey'
+  +'s'#7'Caption'#6#7'Hotkeys'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2
+  +#10'ImageIndex'#2#7#0#244#18'TframeHotkeyConfig'#17'frameHotkeyConfig'#6'Hei'
+  +'ght'#3'0'#2#5'Width'#3#190#2#5'Align'#7#8'alClient'#12'ClientHeight'#3'0'#2
+  +#11'ClientWidth'#3#190#2#10'DesignLeft'#3#225#2#9'DesignTop'#3'2'#1#0#241#6
+  +'TPanel'#6'Panel1'#6'Height'#3#254#1#5'Width'#3#220#1#12'ClientHeight'#3#254
+  +#1#11'ClientWidth'#3#220#1#0#241#6'TLabel'#6'Label1'#5'Width'#3#220#1#0#0#241
+  +#8'TListBox'#8'ListBox1'#6'Height'#3#239#1#5'Width'#3#220#1#0#0#0#241#6'TPan'
+  +'el'#6'Panel2'#4'Left'#3#220#1#6'Height'#3#254#1#5'Width'#3#226#0#12'ClientH'
+  +'eight'#3#254#1#11'ClientWidth'#3#226#0#0#241#5'TEdit'#5'Edit1'#5'Width'#3
+  +#222#0#0#0#241#7'TButton'#7'Button3'#4'Left'#3#171#0#0#0#241#6'TPanel'#6'Pan'
+  +'el3'#4'Left'#2'~'#0#0#241#6'TPanel'#6'Panel4'#4'Left'#2#6#5'Width'#3#220#0
+  +#11'ClientWidth'#3#220#0#0#241#5'TEdit'#5'Edit4'#5'Width'#3#216#0#0#0#0#0#241
+  +#6'TPanel'#6'Panel5'#5'Width'#3#190#2#11'ClientWidth'#3#190#2#0#241#6'TLabel'
+  +#6'Label4'#4'Left'#2'y'#0#0#241#6'TLabel'#6'Label5'#4'Left'#2'y'#0#0#241#5'T'
+  +'Edit'#18'edtKeypollInterval'#5'Width'#2'u'#0#0#241#5'TEdit'#14'edtHotkeyDel'
+  +'ay'#5'Width'#2'u'#4'Text'#6#3'350'#0#0#0#0#0#9'TTabSheet'#12'Unrandomizer'#7
+  +'Caption'#6#12'Unrandomizer'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2
+  +#10'ImageIndex'#2#8#0#6'TLabel'#6'Label5'#22'AnchorSideLeft.Control'#7#12'Un'
+  +'randomizer'#21'AnchorSideTop.Control'#7#10'edtDefault'#4'Left'#2#8#6'Height'
+  +#2#15#3'Top'#2#11#5'Width'#2'h'#18'BorderSpacing.Left'#2#8#17'BorderSpacing.'
+  +'Top'#2#3#7'Caption'#6#20'Default return value'#11'ParentColor'#8#0#0#5'TEdi'
+  +'t'#10'edtDefault'#22'AnchorSideLeft.Control'#7#6'Label5'#19'AnchorSideLeft.'
+  +'Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#12'Unrandomizer'#4'Left'#2
+  +'s'#6'Height'#2#23#3'Top'#2#8#5'Width'#3#149#0#18'BorderSpacing.Left'#2#3#17
+  +'BorderSpacing.Top'#2#8#8'TabOrder'#2#0#4'Text'#6#1'0'#0#0#9'TCheckBox'#13'c'
+  +'bIncremental'#22'AnchorSideLeft.Control'#7#6'Label5'#21'AnchorSideTop.Contr'
+  +'ol'#7#10'edtDefault'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'He'
+  +'ight'#2#19#3'Top'#2#31#5'Width'#2'r'#7'Caption'#6#17'Incremental value'#8'T'
+  +'abOrder'#2#1#0#0#0#9'TTabSheet'#12'ScanSettings'#7'Caption'#6#13'Scan Setti'
+  +'ngs'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#10'ImageIndex'#2#1#0#10
+  +'TScrollBox'#10'ScrollBox2'#4'Left'#2#0#6'Height'#3'0'#2#3'Top'#2#0#5'Width'
+  +#3#190#2#18'HorzScrollBar.Page'#3'W'#2#22'HorzScrollBar.Tracking'#9#18'VertS'
+  +'crollBar.Page'#3#176#1#22'VertScrollBar.Tracking'#9#5'Align'#7#8'alClient'
+  +#12'ClientHeight'#3','#2#11'ClientWidth'#3#186#2#8'TabOrder'#2#0#0#6'TLabel'
+  +#6'Label3'#21'AnchorSideTop.Control'#7#11'cbMemMapped'#18'AnchorSideTop.Side'
+  +#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#15#3'Top'#3#138#1#5'Width'#2'M'#17'B'
+  +'orderSpacing.Top'#2#5#7'Caption'#6#15'Thread priority'#11'ParentColor'#8#7
+  +'OnClick'#7#11'Label3Click'#0#0#6'TLabel'#6'Label1'#21'AnchorSideTop.Control'
+  +#7#11'EditBufsize'#18'AnchorSideTop.Side'#7#9'asrCenter'#23'AnchorSideRight.'
+  +'Control'#7#11'EditBufsize'#4'Left'#2#0#6'Height'#2#15#3'Top'#2#8#5'Width'#2
+  +'|'#7'Caption'#6#25'Size of scanbuffer (KB) :'#11'ParentColor'#8#0#0#6'TLabe'
+  +'l'#7'Label15'#22'AnchorSideLeft.Control'#7#11'EditBufsize'#19'AnchorSideLef'
+  +'t.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#11'EditBufsize'#18'Ancho'
+  +'rSideTop.Side'#7#9'asrCenter'#4'Left'#3#178#0#6'Height'#2#15#3'Top'#2#8#5'W'
+  +'idth'#3#149#0#18'BorderSpacing.Left'#2#3#7'Caption'#6#29'(Can affect scan s'
+  +'peed a lot)'#11'ParentColor'#8#0#0#6'TLabel'#7'Label21'#21'AnchorSideTop.Co'
+  +'ntrol'#7#17'edtTempScanFolder'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'
+  +#2#0#6'Height'#2#15#3'Top'#3'='#1#5'Width'#3#217#0#17'BorderSpacing.Top'#2#10
+  +#7'Caption'#6'''Scan the following memory region types:'#11'ParentColor'#8#0
+  +#0#9'TComboBox'#19'combothreadpriority'#21'AnchorSideTop.Control'#7#6'Label3'
+  +#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#23#3'Top'#3
+  +#153#1#5'Width'#2'z'#10'ItemHeight'#2#15#9'ItemIndex'#2#4#13'Items.Strings'#1
+  +#6#4'Idle'#6#6'Lowest'#6#5'Lower'#6#6'Normal'#6#6'Higher'#6#7'Highest'#6#12
+  +'TimeCritical'#0#9'PopupMenu'#7#19'MainForm.emptypopup'#5'Style'#7#14'csDrop'
+  +'DownList'#8'TabOrder'#2#0#4'Text'#6#6'Higher'#0#0#9'TCheckBox'#10'cbFastsca'
+  +'n'#21'AnchorSideTop.Control'#7#11'EditBufsize'#18'AnchorSideTop.Side'#7#9'a'
+  +'srBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#28#5'Width'#3#141#0#17'Border'
+  +'Spacing.Top'#2#1#7'Caption'#6#23'Fast scan on by default'#7'Checked'#9#5'St'
+  +'ate'#7#9'cbChecked'#8'TabOrder'#2#1#0#0#9'TCheckBox'#19'cbSkip_PAGE_NOCACHE'
+  +#21'AnchorSideTop.Control'#7#10'cbFastscan'#18'AnchorSideTop.Side'#7#9'asrBo'
+  +'ttom'#4'Left'#2#0#6'Height'#2#19#4'Hint'#6'fSome systems crash when trying '
+  +'to read memory with this protection. If that happens check this option.'#3
+  +'Top'#2'/'#5'Width'#3'`'#1#7'Caption'#6'<Don''t scan memory that is protecte'
+  ,'d with the No Cache option'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2
+  +#2#0#0#9'TCheckBox'#10'cbMemImage'#21'AnchorSideTop.Control'#7#12'cbMemPriva'
+  +'te'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'
+  +#3'_'#1#5'Width'#3#141#1#7'Caption'#6'AMEM_IMAGE:Memory that is mapped into '
+  +'the view of an image section'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrd'
+  +'er'#2#3#0#0#9'TCheckBox'#11'cbMemMapped'#21'AnchorSideTop.Control'#7#10'cbM'
+  +'emImage'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3
+  +'Top'#3'r'#1#5'Width'#3'W'#2#7'Caption'#6'fMEM_MAPPED:Memory that is mapped '
+  +'into the view of a section. (E.g:File mapping, emulator memory, slow)'#8'Ta'
+  +'bOrder'#2#4#0#0#9'TCheckBox'#12'cbMemPrivate'#21'AnchorSideTop.Control'#7#7
+  +'Label21'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3
+  +'Top'#3'L'#1#5'Width'#3#222#0#7'Caption'#6'#MEM_PRIVATE:Memory that is priva'
+  +'te.'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#5#0#0#5'TEdit'#11'E'
+  +'ditBufsize'#22'AnchorSideLeft.Control'#7#6'Label1'#19'AnchorSideLeft.Side'#7
+  +#9'asrBottom'#21'AnchorSideTop.Control'#7#10'ScrollBox2'#4'Left'#2'|'#6'Heig'
+  +'ht'#2#23#3'Top'#2#4#5'Width'#2'3'#17'BorderSpacing.Top'#2#4#8'TabOrder'#2#6
+  +#4'Text'#6#4'1024'#0#0#9'TCheckBox'#16'cbDontusetempdir'#21'AnchorSideTop.Co'
+  +'ntrol'#7#10'gbAllTypes'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6
+  +'Height'#2#19#3'Top'#3#250#0#5'Width'#3'L'#1#7'Caption'#6':Don''t store the '
+  +'temporary scanfiles in the windows tempdir'#8'OnChange'#7#22'cbDontusetempd'
+  +'irChange'#8'TabOrder'#2#7#0#0#5'TEdit'#17'edtTempScanFolder'#22'AnchorSideL'
+  +'eft.Control'#7#16'cbDontusetempdir'#21'AnchorSideTop.Control'#7#6'Label2'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#16'cbDontu'
+  +'setempdir'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#15#6'Height'#2
+  +#23#3'Top'#3#28#1#5'Width'#3'='#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'
+  +#0#18'BorderSpacing.Left'#2#15#7'Enabled'#8#8'TabOrder'#2#8#0#0#6'TLabel'#6
+  +'Label2'#22'AnchorSideLeft.Control'#7#16'cbDontusetempdir'#21'AnchorSideTop.'
+  +'Control'#7#16'cbDontusetempdir'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Lef'
+  +'t'#2#15#6'Height'#2#15#3'Top'#3#13#1#5'Width'#3#223#0#18'BorderSpacing.Left'
+  +#2#15#7'Caption'#6'+Store the temporary scanfiles here instead:'#7'Enabled'#8
+  +#11'ParentColor'#8#0#0#12'TSpeedButton'#10'LoadButton'#22'AnchorSideLeft.Con'
+  +'trol'#7#17'edtTempScanFolder'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'Anc'
+  +'horSideTop.Control'#7#17'edtTempScanFolder'#18'AnchorSideTop.Side'#7#9'asrC'
+  +'enter'#23'AnchorSideRight.Control'#7#10'ScrollBox2'#20'AnchorSideRight.Side'
+  +#7#9'asrBottom'#4'Left'#3'L'#1#6'Height'#2#25#3'Top'#3#27#1#5'Width'#2#25#19
+  +'BorderSpacing.Right'#2#15#7'Enabled'#8#10'Glyph.Data'#10#218#2#0#0#214#2#0#0
+  +'BM'#214#2#0#0#0#0#0#0'6'#0#0#0'('#0#0#0#16#0#0#0#14#0#0#0#1#0#24#0#0#0#0#0
+  +#160#2#0#0#196#14#0#0#196#14#0#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#0#0#0#0
+  +#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132
+  +#132#0#132#132#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#0
+  +#255#255#0#0#0#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0
+  +#132#132#0#132#132#0#132#132#0#0#0#192#192#192#192#192#192#192#192#192#0#0#0
+  +#255#255#255#0#255#255#0#0#0#0#132#132#0#132#132#0#132#132#0#132#132#0#132
+  +#132#0#132#132#0#132#132#0#132#132#0#132#132#0#0#0#192#192#192#192#192#192#0
+  +#0#0#0#255#255#255#255#255#0#255#255#0#0#0#0#132#132#0#132#132#0#132#132#0
+  +#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#0#0#192#192#192
+  +#0#0#0#255#255#255#0#255#255#255#255#255#0#255#255#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#255#255#255#255#255#0#255
+  +#255#255#255#255#0#255#255#255#255#255#0#255#255#255#255#255#0#255#255#0#0#0
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#255#255
+  +#255#0#255#255#255#255#255#0#255#255#255#255#255#0#255#255#255#255#255#0#255
+  +#255#255#255#255#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#0#0#0#0#255#255#255#255#255#0#255#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#0#0#0#0#0#0#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#192#192#192#192
+  ,#192#192#192#192#192#0#0#0#192#192#192#0#0#0#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192
+  +#192#7'OnClick'#7#15'LoadButtonClick'#8'ShowHint'#9#14'ParentShowHint'#8#0#0
+  +#9'TCheckBox'#30'cbPauseWhenScanningOnByDefault'#21'AnchorSideTop.Control'#7
+  +#30'cbSaveMemoryregionScanSettings'#18'AnchorSideTop.Side'#7#9'asrBottom'#4
+  +'Left'#2#0#6'Height'#2#19#3'Top'#2'h'#5'Width'#3#206#0#7'Caption'#6'"Pause w'
+  +'hile scanning on by default'#8'TabOrder'#2#9#0#0#9'TCheckBox'#24'cbSkip_PAG'
+  +'E_WRITECOMBINE'#22'AnchorSideLeft.Control'#7#19'cbSkip_PAGE_NOCACHE'#21'Anc'
+  +'horSideTop.Control'#7#19'cbSkip_PAGE_NOCACHE'#18'AnchorSideTop.Side'#7#9'as'
+  +'rBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'B'#5'Width'#3'|'#1#7'Caption'#6
+  +'ADon''t scan memory that is protected with the Write Combine option'#7'Chec'
+  +'ked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#10#0#0#6'TLabel'#14'lblRepeatD'
+  +'elay'#22'AnchorSideLeft.Control'#7#30'cbPauseWhenScanningOnByDefault'#21'An'
+  +'chorSideTop.Control'#7#30'cbPauseWhenScanningOnByDefault'#18'AnchorSideTop.'
+  +'Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#15#3'Top'#2'{'#5'Width'#2'^'#7
+  +'Caption'#6#17'Repeat scan delay'#11'ParentColor'#8#0#0#5'TEdit'#14'edtRepea'
+  +'tDelay'#22'AnchorSideLeft.Control'#7#14'lblRepeatDelay'#21'AnchorSideTop.Co'
+  +'ntrol'#7#14'lblRepeatDelay'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2
+  +#0#6'Height'#2#23#4'Hint'#18'o'#0#0#0'T'#0'h'#0'e'#0' '#0'd'#0'e'#0'l'#0'a'#0
+  +'y'#0' '#0'i'#0'n'#0' '#0'm'#0'i'#0'l'#0'l'#0'i'#0's'#0'e'#0'c'#0'o'#0'n'#0
+  +'d'#0's'#0' '#0't'#0'o'#0' '#0'w'#0'a'#0'i'#0't'#0' '#0'b'#0'e'#0'f'#0'o'#0
+  +'r'#0'e'#0' '#0's'#0't'#0'a'#0'r'#0't'#0'i'#0'n'#0'g'#0' '#0'a'#0' '#0'n'#0
+  +'e'#0'x'#0't'#0' '#0's'#0'c'#0'a'#0'n'#0' '#0'w'#0'h'#0'e'#0'n'#0' '#0't'#0
+  +'h'#0'e'#0' '#0''''#0'r'#0'e'#0'p'#0'e'#0'a'#0't'#0''''#0' '#0'c'#0'h'#0'e'#0
+  +'c'#0'k'#0'b'#0'o'#0'x'#0' '#0'i'#0's'#0' '#0't'#0'i'#0'c'#0'k'#0'e'#0'd'#0
+  +#13#0#10#0#13#0#10#0'0'#0'='#0'n'#0'o'#0' '#0'w'#0'a'#0'i'#0't'#0#3'Top'#3
+  +#138#0#5'Width'#2'P'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#11#4'T'
+  +'ext'#6#1'0'#0#0#6'TLabel'#7'Label25'#22'AnchorSideLeft.Control'#7#14'edtRep'
+  +'eatDelay'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7
+  +#14'edtRepeatDelay'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#2'P'#6'Hei'
+  +'ght'#2#15#3'Top'#3#142#0#5'Width'#2#16#7'Caption'#6#2'ms'#11'ParentColor'#8
+  +#0#0#9'TGroupBox'#10'gbAllTypes'#22'AnchorSideLeft.Control'#7#10'ScrollBox2'
+  +#21'AnchorSideTop.Control'#7#14'edtRepeatDelay'#18'AnchorSideTop.Side'#7#9'a'
+  +'srBottom'#4'Left'#2#0#6'Height'#2'Y'#3'Top'#3#161#0#5'Width'#3#243#0#8'Auto'
+  +'Size'#9#7'Caption'#6#23'The ''all'' type includes'#28'ChildSizing.LeftRight'
+  +'Spacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHor'
+  +'izontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24
+  +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
+  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
+  +'out'#7#29'cclTopToBottomThenLeftToRight'#27'ChildSizing.ControlsPerLine'#2#3
+  +#12'ClientHeight'#2'E'#11'ClientWidth'#3#239#0#8'TabOrder'#2#12#0#9'TCheckBo'
+  +'x'#9'cbAllByte'#4'Left'#2#6#6'Height'#2#19#3'Top'#2#6#5'Width'#2'9'#7'Capti'
+  +'on'#6#4'Byte'#8'TabOrder'#2#0#0#0#9'TCheckBox'#9'cbAllWord'#4'Left'#2#6#6'H'
+  +'eight'#2#19#3'Top'#2#25#5'Width'#2'9'#7'Caption'#6#7'2 Bytes'#8'TabOrder'#2
+  +#1#0#0#9'TCheckBox'#10'cbAllDword'#4'Left'#2#6#6'Height'#2#19#3'Top'#2','#5
+  +'Width'#2'9'#7'Caption'#6#7'4 Bytes'#8'TabOrder'#2#2#0#0#9'TCheckBox'#10'cbA'
+  +'llQword'#4'Left'#2'?'#6'Height'#2#19#3'Top'#2#6#5'Width'#2':'#7'Caption'#6#7
+  +'8 Bytes'#8'TabOrder'#2#3#0#0#9'TCheckBox'#11'cbAllSingle'#4'Left'#2'?'#6'He'
+  +'ight'#2#19#3'Top'#2#25#5'Width'#2':'#7'Caption'#6#5'Float'#8'TabOrder'#2#4#0
+  +#0#9'TCheckBox'#11'cbAllDouble'#4'Left'#2'?'#6'Height'#2#19#3'Top'#2','#5'Wi'
+  +'dth'#2':'#7'Caption'#6#6'Double'#8'TabOrder'#2#5#0#0#9'TCheckBox'#11'cbAllC'
+  +'ustom'#4'Left'#2'y'#6'Height'#2#19#3'Top'#2#6#5'Width'#2'p'#7'Caption'#6#16
+  +'All Custom Types'#8'TabOrder'#2#6#0#0#0#9'TCheckBox'#30'cbSaveMemoryregionS'
+  +'canSettings'#22'AnchorSideLeft.Control'#7#19'cbSkip_PAGE_NOCACHE'#21'Anchor'
+  +'SideTop.Control'#7#24'cbSkip_PAGE_WRITECOMBINE'#18'AnchorSideTop.Side'#7#9
+  +'asrBottom'#4'Left'#2#0#6'Height'#2#19#4'Hint'#6'/Saves "Writable" "Executab'
+  +'le" "Copy-On-Write"  '#3'Top'#2'U'#5'Width'#3#235#0#7'Caption'#6'&Save the '
+  +'memoryregions to scan options'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrde'
+  +'r'#2#13#0#0#0#0#9'TTabSheet'#7'Plugins'#7'Caption'#6#7'Plugins'#12'ClientHe'
+  +'ight'#3'0'#2#11'ClientWidth'#3#190#2#10'ImageIndex'#2#3#0#6'TPanel'#6'Panel'
+  +'7'#4'Left'#3'\'#2#6'Height'#3'0'#2#3'Top'#2#0#5'Width'#2'b'#5'Align'#7#7'al'
+  +'Right'#8'AutoSize'#9#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3'0'#2#11
+  +'ClientWidth'#2'b'#8'TabOrder'#2#0#0#7'TButton'#7'Button5'#22'AnchorSideLeft'
+  ,'.Control'#7#6'Panel7'#21'AnchorSideTop.Control'#7#7'Button4'#18'AnchorSideT'
+  +'op.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#6'Panel7'#20'AnchorSi'
+  +'deRight.Side'#7#9'asrBottom'#4'Left'#2#4#6'Height'#2#25#3'Top'#2'%'#5'Width'
+  +#2'Z'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#9#18'BorderS'
+  +'pacing.Left'#2#4#17'BorderSpacing.Top'#2#4#19'BorderSpacing.Right'#2#4#7'Ca'
+  +'ption'#6#6'Delete'#20'Constraints.MinWidth'#2'Z'#7'OnClick'#7#12'Button5Cli'
+  +'ck'#8'TabOrder'#2#0#0#0#7'TButton'#7'Button4'#22'AnchorSideLeft.Control'#7#6
+  +'Panel7'#21'AnchorSideTop.Control'#7#6'Panel7'#23'AnchorSideRight.Control'#7
+  +#6'Panel7'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#4#6'Height'#2#25
+  +#3'Top'#2#8#5'Width'#2'Z'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'Au'
+  +'toSize'#9#18'BorderSpacing.Left'#2#4#17'BorderSpacing.Top'#2#8#19'BorderSpa'
+  +'cing.Right'#2#4#7'Caption'#6#7'Add new'#20'Constraints.MinWidth'#2'Z'#7'OnC'
+  +'lick'#7#12'Button4Click'#8'TabOrder'#2#1#0#0#0#6'TPanel'#6'Panel8'#4'Left'#2
+  +#0#6'Height'#3'0'#2#3'Top'#2#0#5'Width'#3'\'#2#5'Align'#7#8'alClient'#10'Bev'
+  +'elOuter'#7#6'bvNone'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3'\'#2#8'TabOr'
+  +'der'#2#1#0#6'TLabel'#7'Label22'#4'Left'#2#0#6'Height'#2#15#3'Top'#2#0#5'Wid'
+  +'th'#3'\'#2#5'Align'#7#5'alTop'#7'Caption'#6'$The following plugins are avai'
+  +'lable:'#11'ParentColor'#8#0#0#13'TCheckListBox'#10'clbPlugins'#4'Left'#2#0#6
+  +'Height'#3'!'#2#3'Top'#2#15#5'Width'#3'\'#2#5'Align'#7#8'alClient'#10'ItemHe'
+  +'ight'#2#0#8'TabOrder'#2#0#0#0#0#0#9'TTabSheet'#9'Languages'#7'Caption'#6#9
+  +'Languages'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#0#6'TPanel'#6'Pa'
+  +'nel1'#22'AnchorSideLeft.Control'#7#9'Languages'#21'AnchorSideTop.Control'#7
+  +#9'Languages'#23'AnchorSideRight.Control'#7#9'Languages'#20'AnchorSideRight.'
+  +'Side'#7#9'asrBottom'#24'AnchorSideBottom.Control'#7#9'Languages'#21'AnchorS'
+  +'ideBottom.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#3'0'#2#3'Top'#2#0#5'Wi'
+  +'dth'#3#190#2#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#10'B'
+  +'evelOuter'#7#6'bvNone'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#8'Ta'
+  +'bOrder'#2#0#0#9'TCheckBox'#22'cbShowLanguageMenuItem'#22'AnchorSideLeft.Con'
+  +'trol'#7#6'Panel1'#24'AnchorSideBottom.Control'#7#6'Panel1'#21'AnchorSideBot'
+  +'tom.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#3#29#2#5'Width'#3
+  +'8'#1#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6'4Show language sele'
+  +'ction menu item at the main screen'#8'TabOrder'#2#0#0#0#8'TListBox'#11'lbLa'
+  +'nguages'#22'AnchorSideLeft.Control'#7#6'Panel1'#21'AnchorSideTop.Control'#7
+  +#6'Label9'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'
+  +#7#7'Panel10'#24'AnchorSideBottom.Control'#7#22'cbShowLanguageMenuItem'#4'Le'
+  +'ft'#2#0#6'Height'#3#14#2#3'Top'#2#15#5'Width'#3'F'#2#7'Anchors'#11#5'akTop'
+  +#6'akLeft'#7'akRight'#8'akBottom'#0#10'ItemHeight'#2#0#10'OnDblClick'#7#22'b'
+  +'tnSelectLanguageClick'#9'PopupMenu'#7#11'miLanguages'#8'TabOrder'#2#1#0#0#6
+  +'TLabel'#6'Label9'#22'AnchorSideLeft.Control'#7#6'Panel1'#21'AnchorSideTop.C'
+  +'ontrol'#7#6'Panel1'#4'Left'#2#0#6'Height'#2#15#3'Top'#2#0#5'Width'#3#197#0#7
+  +'Caption'#6'%The folowing languages are available:'#11'ParentColor'#8#0#0#6
+  +'TPanel'#7'Panel10'#21'AnchorSideTop.Control'#7#6'Label9'#18'AnchorSideTop.S'
+  +'ide'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#6'Panel1'#20'AnchorSideRi'
+  +'ght.Side'#7#9'asrBottom'#4'Left'#3'F'#2#6'Height'#2'C'#3'Top'#2#15#5'Width'
+  +#2'x'#7'Anchors'#11#5'akTop'#7'akRight'#0#8'AutoSize'#9#10'BevelOuter'#7#6'b'
+  +'vNone'#12'ClientHeight'#2'C'#11'ClientWidth'#2'x'#8'TabOrder'#2#2#0#7'TButt'
+  +'on'#17'btnSelectLanguage'#22'AnchorSideLeft.Control'#7#7'Panel10'#21'Anchor'
+  +'SideTop.Control'#7#18'lblCurrentLanguage'#18'AnchorSideTop.Side'#7#9'asrBot'
+  +'tom'#23'AnchorSideRight.Control'#7#7'Panel10'#20'AnchorSideRight.Side'#7#9
+  +'asrBottom'#4'Left'#2#4#6'Height'#2#25#3'Top'#2'*'#5'Width'#2'p'#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#7'akRight'#0#8'AutoSize'#9#18'BorderSpacing.Left'#2#4
+  +#19'BorderSpacing.Right'#2#4#7'Caption'#6#15'Select Language'#7'Default'#9#7
+  +'OnClick'#7#22'btnSelectLanguageClick'#8'TabOrder'#2#0#0#0#6'TLabel'#7'Label'
+  +'10'#22'AnchorSideLeft.Control'#7#7'Panel10'#21'AnchorSideTop.Control'#7#7'P'
+  +'anel10'#4'Left'#2#4#6'Height'#2#15#3'Top'#2#0#5'Width'#2'b'#18'BorderSpacin'
+  +'g.Left'#2#4#19'BorderSpacing.Right'#2#4#7'Caption'#6#17'Current Language:'
+  +#11'ParentColor'#8#0#0#6'TLabel'#18'lblCurrentLanguage'#22'AnchorSideLeft.Co'
+  +'ntrol'#7#7'Panel10'#21'AnchorSideTop.Control'#7#7'Label10'#18'AnchorSideTop'
+  +'.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#7'Panel10'#20'AnchorSid'
+  +'eRight.Side'#7#9'asrBottom'#4'Left'#2#4#6'Height'#2#15#3'Top'#2#21#5'Width'
+  +#2'p'#9'Alignment'#7#8'taCenter'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'
+  +#0#18'BorderSpacing.Left'#2#4#17'BorderSpacing.Top'#2#6#19'BorderSpacing.Rig'
+  +'ht'#2#4#20'BorderSpacing.Bottom'#2#6#7'Caption'#6#7'English'#11'ParentColor'
+  +#8#0#0#0#0#0#9'TTabSheet'#9'Assembler'#7'Caption'#6#16'Debugger Options'#12
+  ,'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#10'ImageIndex'#2#5#0#10'TScrol'
+  +'lBox'#10'ScrollBox3'#4'Left'#2#0#6'Height'#3'0'#2#3'Top'#2#0#5'Width'#3#190
+  +#2#18'HorzScrollBar.Page'#3#137#2#22'HorzScrollBar.Tracking'#9#18'VertScroll'
+  +'Bar.Page'#3','#2#22'VertScrollBar.Tracking'#9#5'Align'#7#8'alClient'#12'Cli'
+  +'entHeight'#3','#2#11'ClientWidth'#3#169#2#8'TabOrder'#2#0#0#9'TCheckBox'#15
+  +'replacewithnops'#22'AnchorSideLeft.Control'#7#6'Label4'#21'AnchorSideTop.Co'
+  +'ntrol'#7#6'Label4'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Heig'
+  +'ht'#2#19#4'Hint'#6#217'If you type in a opcode and it is smaller than the o'
+  +'pcode you replaced, it will fill the missing bytes with NOP instructions. I'
+  +'f the opcode is longer it will replace the opcode(s) that have been overwri'
+  +'tten with NOP''s'#3'Top'#2'\'#5'Width'#3#227#0#7'Caption'#6'$Replace incomp'
+  +'lete opcodes with nops'#7'Checked'#9#7'OnClick'#7#20'replacewithnopsClick'
+  +#14'ParentShowHint'#8#8'ShowHint'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#0#0
+  +#0#9'TCheckBox'#21'askforreplacewithnops'#22'AnchorSideLeft.Control'#7#15're'
+  +'placewithnops'#21'AnchorSideTop.Control'#7#15'replacewithnops'#18'AnchorSid'
+  +'eTop.Side'#7#9'asrBottom'#4'Left'#2#24#6'Height'#2#19#3'Top'#2'o'#5'Width'#3
+  +#148#0#18'BorderSpacing.Left'#2#16#7'Caption'#6#24'Ask for replace with nop'
+  +#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#1#0#0#9'TGroupBox'#9'Gro'
+  +'upBox2'#21'AnchorSideTop.Control'#7#19'gbDebuggerInterface'#18'AnchorSideTo'
+  +'p.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#10'ScrollBox3'#20'Anch'
+  +'orSideRight.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2'y'#3'Top'#3#176#1#5
+  +'Width'#3#16#2#17'BorderSpacing.Top'#2#2#7'Caption'#6#25'Debugger interface '
+  +'config'#12'ClientHeight'#2'e'#11'ClientWidth'#3#12#2#8'TabOrder'#2#2#0#12'T'
+  +'PageControl'#13'pcDebugConfig'#4'Left'#2#0#6'Height'#2'e'#3'Top'#2#0#5'Widt'
+  +'h'#3#12#2#10'ActivePage'#7#16'tsVEHDebugConfig'#5'Align'#7#8'alClient'#8'Ta'
+  +'bIndex'#2#0#8'TabOrder'#2#0#0#9'TTabSheet'#16'tsVEHDebugConfig'#7'Caption'#6
+  +#12'VEH Debugger'#12'ClientHeight'#2'I'#11'ClientWidth'#3#4#2#0#12'TRadioBut'
+  +'ton'#23'rbVEHHookThreadCreation'#22'AnchorSideLeft.Control'#7#16'tsVEHDebug'
+  +'Config'#21'AnchorSideTop.Control'#7#15'rbVEHPollThread'#18'AnchorSideTop.Si'
+  +'de'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'('#5'Width'#3#215#0
+  +#17'BorderSpacing.Top'#2#3#7'Caption'#6'$Hook thread-create and destroy api'
+  +'''s'#7'Enabled'#8#8'TabOrder'#2#2#0#0#6'TLabel'#18'lblThreadFollowing'#22'A'
+  +'nchorSideLeft.Control'#7#16'tsVEHDebugConfig'#21'AnchorSideTop.Control'#7#16
+  +'tsVEHDebugConfig'#4'Left'#2#0#6'Height'#2#15#3'Top'#2#0#5'Width'#2'\'#7'Cap'
+  +'tion'#6#17'Thread following:'#11'ParentColor'#8#0#0#12'TRadioButton'#22'rbV'
+  +'EHUseProcessWatcher'#22'AnchorSideLeft.Control'#7#16'tsVEHDebugConfig'#21'A'
+  +'nchorSideTop.Control'#7#23'rbVEHHookThreadCreation'#18'AnchorSideTop.Side'#7
+  +#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'>'#5'Width'#2'|'#17'Border'
+  +'Spacing.Top'#2#3#7'Caption'#6#18'Use processwatcher'#7'Enabled'#8#8'TabOrde'
+  +'r'#2#1#0#0#12'TRadioButton'#15'rbVEHPollThread'#22'AnchorSideLeft.Control'#7
+  +#16'tsVEHDebugConfig'#21'AnchorSideTop.Control'#7#18'lblThreadFollowing'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#18#5
+  +'Width'#2'd'#17'BorderSpacing.Top'#2#3#7'Caption'#6#16'Poll for threads'#7'C'
+  +'hecked'#9#8'TabOrder'#2#0#7'TabStop'#9#0#0#9'TCheckBox cbVEHRealContextOnTh'
+  +'readCreation'#22'AnchorSideLeft.Control'#7#15'rbVEHPollThread'#19'AnchorSid'
+  +'eLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#15'rbVEHPollThread'
+  +#23'AnchorSideRight.Control'#7#15'rbVEHPollThread'#4'Left'#2'n'#6'Height'#2
+  +#19#3'Top'#2#18#5'Width'#3#202#0#18'BorderSpacing.Left'#2#10#7'Caption'#6'"G'
+  +'et/Set thread context on creation'#7'Checked'#9#5'State'#7#9'cbChecked'#8'T'
+  +'abOrder'#2#3#0#0#0#9'TTabSheet'#23'tsWindowsDebuggerConfig'#7'Caption'#6#16
+  +'Windows Debugger'#12'ClientHeight'#2'I'#11'ClientWidth'#3#4#2#0#9'TCheckBox'
+  +#9'CheckBox1'#22'AnchorSideLeft.Control'#7#23'tsWindowsDebuggerConfig'#21'An'
+  +'chorSideTop.Control'#7#23'tsWindowsDebuggerConfig'#4'Left'#2#0#6'Height'#2
+  +#19#3'Top'#2#0#5'Width'#3#234#0#7'Caption'#6'(Try to prevent detection of th'
+  +'e debugger'#8'OnChange'#7#15'CheckBox1Change'#8'TabOrder'#2#0#0#0#0#9'TTabS'
+  +'heet'#19'tsKernelDebugConfig'#7'Caption'#6#12'Kernel Debug'#12'ClientHeight'
+  +#2'I'#11'ClientWidth'#3#4#2#0#9'TCheckBox'#13'cbGlobalDebug'#22'AnchorSideLe'
+  +'ft.Control'#7#19'tsKernelDebugConfig'#21'AnchorSideTop.Control'#7#19'tsKern'
+  +'elDebugConfig'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'Width'#3#160#0#7'Cap'
+  +'tion'#6#25'Use Global Debug routines'#8'TabOrder'#2#0#0#0#9'TCheckBox'#19'c'
+  +'bCanStepKernelcode'#22'AnchorSideLeft.Control'#7#13'cbGlobalDebug'#21'Ancho'
+  +'rSideTop.Control'#7#13'cbGlobalDebug'#18'AnchorSideTop.Side'#7#9'asrBottom'
+  +#4'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'Width'#3#203#0#7'Caption'#6'#Abili'
+  +'ty to step through kernel code'#8'TabOrder'#2#1#0#0#0#9'TTabSheet'#22'tsMac'
+  ,'DebuggerInterface'#7'Caption'#6#9'Mac Debug'#12'ClientHeight'#2'I'#11'Clien'
+  +'tWidth'#3#4#2#0#12'TRadioButton'#19'rbMacDebugTaskLevel'#22'AnchorSideLeft.'
+  +'Control'#7#22'tsMacDebuggerInterface'#21'AnchorSideTop.Control'#7#22'tsMacD'
+  +'ebuggerInterface'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'Width'#2'I'#7'Cap'
+  +'tion'#6#10'Task Level'#7'Checked'#9#8'TabOrder'#2#1#7'TabStop'#9#0#0#12'TRa'
+  +'dioButton'#21'rbMacDebugThreadLevel'#22'AnchorSideLeft.Control'#7#22'tsMacD'
+  +'ebuggerInterface'#21'AnchorSideTop.Control'#7#19'rbMacDebugTaskLevel'#18'An'
+  +'chorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'W'
+  +'idth'#2'S'#7'Caption'#6#12'Thread level'#8'TabOrder'#2#0#0#0#0#9'TTabSheet'
+  +#9'TabSheet1'#7'Caption'#6#4'DBVM'#12'ClientHeight'#2'I'#11'ClientWidth'#3#4
+  +#2#0#9'TCheckBox'#21'cbDBVMDebugTriggerCOW'#22'AnchorSideLeft.Control'#7#9'T'
+  +'abSheet1'#21'AnchorSideTop.Control'#7#9'TabSheet1'#4'Left'#2#0#6'Height'#2
+  +#19#3'Top'#2#0#5'Width'#3#18#1#7'Caption'#6'/Trigger copy-on-write before ac'
+  +'tivating watches'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#0#0#0#9
+  +'TCheckBox'#30'cbDBVMDebugTargetedProcessOnly'#22'AnchorSideLeft.Control'#7#9
+  +'TabSheet1'#21'AnchorSideTop.Control'#7#21'cbDBVMDebugTriggerCOW'#18'AnchorS'
+  +'ideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'Width'
+  +#3#135#0#7'Caption'#6#21'Targeted process only'#8'TabOrder'#2#1#0#0#9'TCheck'
+  +'Box'#27'cbDBVMDebugKernelmodeBreaks'#22'AnchorSideLeft.Control'#7#21'cbDBVM'
+  +'DebugTriggerCOW'#21'AnchorSideTop.Control'#7#30'cbDBVMDebugTargetedProcessO'
+  +'nly'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'
+  +#2'&'#5'Width'#3#207#0#7'Caption'#6'!Kernelmode breaks (when possible)'#7'Ch'
+  +'ecked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#2#0#0#0#0#0#9'TGroupBox'#19
+  +'gbDebuggerInterface'#22'AnchorSideLeft.Control'#7#12'edtStacksize'#21'Ancho'
+  +'rSideTop.Control'#7#12'edtStacksize'#18'AnchorSideTop.Side'#7#9'asrBottom'#4
+  +'Left'#2#8#6'Height'#2's'#3'Top'#3';'#1#5'Width'#3#144#1#8'AutoSize'#9#7'Cap'
+  +'tion'#6#15'Debugger method'#28'ChildSizing.LeftRightSpacing'#2#6#29'ChildSi'
+  +'zing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.Enlar'
+  +'geVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'
+  +#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#27
+  +'ChildSizing.ControlsPerLine'#2#1#12'ClientHeight'#2'_'#11'ClientWidth'#3#140
+  +#1#8'TabOrder'#2#3#0#12'TRadioButton'#16'cbUseVEHDebugger'#22'AnchorSideLeft'
+  +'.Control'#7#19'gbDebuggerInterface'#21'AnchorSideTop.Control'#7#19'gbDebugg'
+  +'erInterface'#4'Left'#2#6#6'Height'#2#19#3'Top'#2#0#5'Width'#2'w'#7'Caption'
+  +#6#16'Use VEH Debugger'#8'OnChange'#7#25'cbDebuggerInterfaceChange'#7'OnClic'
+  +'k'#7#25'cbDebuggerInterfaceChange'#8'TabOrder'#2#0#0#0#12'TRadioButton'#20
+  +'cbUseWindowsDebugger'#3'Tag'#2#1#22'AnchorSideLeft.Control'#7#19'gbDebugger'
+  +'Interface'#21'AnchorSideTop.Control'#7#16'cbUseVEHDebugger'#18'AnchorSideTo'
+  +'p.Side'#7#9'asrBottom'#4'Left'#2#6#6'Height'#2#19#3'Top'#2#19#5'Width'#3#143
+  +#0#7'Caption'#6#20'Use windows debugger'#7'Checked'#9#8'OnChange'#7#25'cbDeb'
+  +'uggerInterfaceChange'#7'OnClick'#7#25'cbDebuggerInterfaceChange'#8'TabOrder'
+  +#2#1#7'TabStop'#9#0#0#6'TPanel'#7'Panel11'#22'AnchorSideLeft.Control'#7#8'cb'
+  +'KDebug'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#8
+  +'cbKDebug'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#3#165#0#6'Height'#2
+  +#26#3'Top'#2'"'#5'Width'#3#225#0#8'AutoSize'#9#18'ChildSizing.Layout'#7#29'c'
+  +'clLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12'Client'
+  +'Height'#2#26#11'ClientWidth'#3#225#0#8'TabOrder'#2#2#0#7'TButton'#26'btnMak'
+  +'eKernelDebugPossible'#4'Left'#2#0#6'Height'#2#25#3'Top'#2#0#5'Width'#2'e'#7
+  +'Caption'#6#13'Make possible'#7'OnClick'#7#31'btnMakeKernelDebugPossibleClic'
+  +'k'#8'TabOrder'#2#0#7'Visible'#8#0#0#7'TButton'#26'btnRestoreKernelProtectio'
+  +'n'#4'Left'#2'e'#6'Height'#2#25#3'Top'#2#0#5'Width'#2'{'#7'Caption'#6#18'Res'
+  +'tore Protection'#7'OnClick'#7#31'btnRestoreKernelProtectionClick'#8'TabOrde'
+  +'r'#2#1#7'Visible'#8#0#0#0#12'TRadioButton'#8'cbKDebug'#3'Tag'#2#2#22'Anchor'
+  +'SideLeft.Control'#7#19'gbDebuggerInterface'#21'AnchorSideTop.Control'#7#20
+  +'cbUseWindowsDebugger'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#6#6'H'
+  +'eight'#2#19#3'Top'#2'&'#5'Width'#3#159#0#7'Caption'#6#23'Use kernelmode deb'
+  +'ugger'#8'OnChange'#7#25'cbDebuggerInterfaceChange'#7'OnClick'#7#25'cbDebugg'
+  +'erInterfaceChange'#8'TabOrder'#2#3#0#0#12'TRadioButton'#16'cbUseMacDebugger'
+  +#21'AnchorSideTop.Control'#7#8'cbKDebug'#18'AnchorSideTop.Side'#7#9'asrBotto'
+  +'m'#4'Left'#2#6#6'Height'#2#19#3'Top'#2'9'#5'Width'#2'w'#7'Caption'#6#16'Use'
+  +' Mac debugger'#8'OnChange'#7#25'cbDebuggerInterfaceChange'#7'OnClick'#7#25
+  +'cbDebuggerInterfaceChange'#8'TabOrder'#2#4#0#0#12'TRadioButton'#17'cbUseDBV'
+  +'MDebugger'#3'Tag'#2#3#22'AnchorSideLeft.Control'#7#16'cbUseMacDebugger'#21
+  +'AnchorSideTop.Control'#7#16'cbUseMacDebugger'#18'AnchorSideTop.Side'#7#9'as'
+  ,'rBottom'#4'Left'#2#6#6'Height'#2#19#3'Top'#2'L'#5'Width'#3#158#0#7'Caption'
+  +#6#23'Use DBVM-level debugger'#8'OnChange'#7#25'cbDebuggerInterfaceChange'#7
+  +'OnClick'#7#25'cbDebuggerInterfaceChange'#8'TabOrder'#2#5#0#0#0#6'TLabel'#6
+  +'Label4'#22'AnchorSideLeft.Control'#7#9'GroupBox4'#21'AnchorSideTop.Control'
+  +#7#9'GroupBox4'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2
+  +#15#3'Top'#2'M'#5'Width'#2'q'#7'Caption'#6#22'Single line assembler:'#11'Par'
+  +'entColor'#8#0#0#6'TLabel'#6'Label6'#22'AnchorSideLeft.Control'#7#20'cbWaitA'
+  +'fterGuiUpdate'#21'AnchorSideTop.Control'#7#21'cbOverrideExistingBPs'#18'Anc'
+  +'horSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#15#3'Top'#3#21#1#5
+  +'Width'#3#252#0#17'BorderSpacing.Top'#2#4#7'Caption'#6'2Size of stack to rec'
+  +'ord on "Find what... routines"'#11'ParentColor'#8#0#0#5'TEdit'#12'edtStacks'
+  +'ize'#22'AnchorSideLeft.Control'#7#6'Label6'#21'AnchorSideTop.Control'#7#6'L'
+  +'abel6'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#23#3'T'
+  +'op'#3'$'#1#5'Width'#2'-'#8'TabOrder'#2#4#4'Text'#6#4'4096'#0#0#6'TLabel'#6
+  +'Label7'#22'AnchorSideLeft.Control'#7#12'edtStacksize'#19'AnchorSideLeft.Sid'
+  +'e'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#12'edtStacksize'#18'AnchorSid'
+  +'eTop.Side'#7#9'asrCenter'#4'Left'#2'7'#6'Height'#2#15#3'Top'#3'('#1#5'Width'
+  +#2#28#18'BorderSpacing.Left'#2#2#7'Caption'#6#5'Bytes'#11'ParentColor'#8#0#0
+  +#9'TCheckBox'#21'cbOverrideExistingBPs'#22'AnchorSideLeft.Control'#7#20'cbWa'
+  +'itAfterGuiUpdate'#21'AnchorSideTop.Control'#7#20'cbWaitAfterGuiUpdate'#18'A'
+  +'nchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#19#3'Top'#3#254#0
+  +#5'Width'#3'6'#1#7'Caption'#6'6Override existing breakpoints when setting br'
+  +'eakpoints'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#5#0#0#9'TGrou'
+  +'pBox'#9'GroupBox4'#22'AnchorSideLeft.Control'#7#10'ScrollBox3'#21'AnchorSid'
+  +'eTop.Control'#7#10'ScrollBox3'#4'Left'#2#8#6'Height'#2'M'#3'Top'#2#0#5'Widt'
+  +'h'#3#129#2#8'AutoSize'#9#18'BorderSpacing.Left'#2#8#7'Caption'#6#26'Prefere'
+  +'d breakpoint method'#12'ClientHeight'#2'9'#11'ClientWidth'#3'}'#2#8'TabOrde'
+  +'r'#2#6#0#12'TRadioButton'#19'rbDebugAsBreakpoint'#22'AnchorSideLeft.Control'
+  +#7#9'GroupBox4'#21'AnchorSideTop.Control'#7#9'GroupBox4'#4'Left'#2#0#6'Heigh'
+  +'t'#2#19#3'Top'#2#0#5'Width'#3#179#0#7'Caption'#6#28'Hardware Breakpoints (M'
+  +'ax 4)'#7'Checked'#9#8'TabOrder'#2#0#7'TabStop'#9#0#0#12'TRadioButton'#18'rb'
+  +'Int3AsBreakpoint'#22'AnchorSideLeft.Control'#7#9'GroupBox4'#21'AnchorSideTo'
+  +'p.Control'#7#19'rbDebugAsBreakpoint'#18'AnchorSideTop.Side'#7#9'asrBottom'#4
+  +'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'Width'#3#145#1#7'Caption'#6'JInt3 in'
+  +'structions (Execute BP only, falls back to hardware bp) (Unlimited)'#8'TabO'
+  +'rder'#2#1#0#0#12'TRadioButton'#16'rbPageExceptions'#22'AnchorSideLeft.Contr'
+  +'ol'#7#9'GroupBox4'#21'AnchorSideTop.Control'#7#18'rbInt3AsBreakpoint'#18'An'
+  +'chorSideTop.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'&'#5'W'
+  +'idth'#3'}'#2#7'Caption'#6'tPage exceptions (Extremely slow to unplayable, b'
+  +'uggy, best used if nothing else works. Does not use debug registers)'#8'Tab'
+  +'Order'#2#2#0#0#0#9'TCheckBox'#20'cbWaitAfterGuiUpdate'#22'AnchorSideLeft.Co'
+  +'ntrol'#7#15'replacewithnops'#21'AnchorSideTop.Control'#7#14'cbIPTTraceSize'
+  +#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#19#4'Hint'#18
+  +#230#1#0#0'S'#0'o'#0'm'#0'e'#0't'#0'i'#0'm'#0'e'#0's'#0' '#0'w'#0'h'#0'e'#0
+  +'n'#0' '#0'u'#0's'#0'i'#0'n'#0'g'#0' '#0'o'#0'n'#0'e'#0' '#0'o'#0'f'#0' '#0
+  +'t'#0'h'#0'e'#0' '#0'"'#0'f'#0'i'#0'n'#0'd'#0' '#0'o'#0'u'#0't'#0' '#0'w'#0
+  +'h'#0'a'#0't'#0'.'#0'.'#0'.'#0'"'#0' '#0'f'#0'u'#0'n'#0'c'#0't'#0'i'#0'o'#0
+  +'n'#0's'#0' '#0't'#0'h'#0'e'#0'y'#0' '#0'g'#0'e'#0't'#0' '#0'h'#0'i'#0't'#0
+  +' '#0's'#0'o'#0' '#0'o'#0'f'#0't'#0'e'#0'n'#0' '#0't'#0'h'#0'a'#0't'#0' '#0
+  +'t'#0'h'#0'e'#0' '#0'g'#0'u'#0'i'#0' '#0'h'#0'a'#0's'#0' '#0'n'#0'o'#0' '#0
+  +'t'#0'i'#0'm'#0'e'#0' '#0't'#0'o'#0' '#0'u'#0'p'#0'd'#0'a'#0't'#0'e'#0','#0
+  +' '#0'r'#0'e'#0's'#0'u'#0'l'#0't'#0'i'#0'n'#0'g'#0' '#0'i'#0'n'#0' '#0'a'#0
+  +'n'#0'o'#0'y'#0'i'#0'n'#0'g'#0' '#0'b'#0'e'#0'h'#0'a'#0'v'#0'i'#0'o'#0'u'#0
+  +'r'#0' '#0'l'#0'i'#0'k'#0'e'#0' '#0'c'#0'e'#0'r'#0't'#0'a'#0'i'#0'n'#0' '#0
+  +'w'#0'i'#0'n'#0'd'#0'o'#0'w'#0's'#0' '#0'n'#0'o'#0't'#0' '#0'c'#0'l'#0'o'#0
+  +'s'#0'i'#0'n'#0'g'#0' '#0'o'#0'r'#0' '#0'u'#0'n'#0'r'#0'e'#0's'#0'p'#0'o'#0
+  +'n'#0's'#0'i'#0'v'#0'e'#0' '#0'b'#0'u'#0't'#0't'#0'o'#0'n'#0's'#0'.'#0#13#0
+  +#10#0'W'#0'i'#0't'#0'h'#0' '#0't'#0'h'#0'i'#0's'#0' '#0'o'#0'p'#0't'#0'i'#0
+  +'o'#0'n'#0' '#0'e'#0'n'#0'a'#0'b'#0'l'#0'e'#0'd'#0' '#0't'#0'h'#0'e'#0' '#0
+  +'d'#0'e'#0'b'#0'u'#0'g'#0'g'#0'e'#0'r'#0' '#0'w'#0'i'#0'l'#0'l'#0' '#0'g'#0
+  +'i'#0'v'#0'e'#0' '#0't'#0'h'#0'e'#0' '#0'g'#0'u'#0'i'#0' '#0's'#0'o'#0'm'#0
+  +'e'#0' '#0't'#0'i'#0'm'#0'e'#0' '#0't'#0'o'#0' '#0'h'#0'a'#0'n'#0'd'#0'l'#0
+  +'e'#0' '#0't'#0'h'#0'e'#0' '#0'm'#0'e'#0's'#0's'#0'a'#0'g'#0'e'#0's'#0' '#0
+  +'b'#0'e'#0'f'#0'o'#0'r'#0'e'#0' '#0'i'#0't'#0' '#0's'#0'e'#0'n'#0'd'#0's'#0
+  ,' '#0'i'#0't'#0' '#0'a'#0' '#0'n'#0'e'#0'w'#0' '#0'u'#0'p'#0'd'#0'a'#0't'#0
+  +'e'#0'.'#0#13#0#10#0'D'#0'o'#0'w'#0'n'#0's'#0'i'#0'd'#0'e'#0':'#0' '#0'T'#0
+  +'h'#0'e'#0' '#0'g'#0'a'#0'm'#0'e'#0' '#0'm'#0'a'#0'y'#0' '#0'b'#0'e'#0'c'#0
+  +'o'#0'm'#0'e'#0' '#0's'#0'l'#0'i'#0'g'#0'h'#0't'#0'l'#0'y'#0' '#0's'#0'l'#0
+  +'o'#0'w'#0'e'#0'r'#0' '#0'w'#0'h'#0'e'#0'n'#0' '#0'u'#0's'#0'i'#0'n'#0'g'#0
+  +' '#0't'#0'h'#0'e'#0's'#0'e'#0' '#0'f'#0'u'#0'n'#0'c'#0't'#0'i'#0'o'#0'n'#0
+  +'s'#0'.'#0' '#0'('#0'O'#0'f'#0' '#0'c'#0'o'#0'u'#0'r'#0's'#0'e'#0','#0' '#0
+  +'i'#0'f'#0' '#0'i'#0't'#0' '#0'h'#0'a'#0's'#0' '#0'b'#0'e'#0'e'#0'n'#0' '#0
+  +'h'#0'a'#0'm'#0'm'#0'e'#0'r'#0'i'#0'n'#0'g'#0' '#0't'#0'h'#0'e'#0' '#0'g'#0
+  +'u'#0'i'#0','#0' '#0'i'#0't'#0' '#0'w'#0'o'#0'u'#0'l'#0'd'#0' '#0'a'#0'l'#0
+  +'r'#0'e'#0'a'#0'd'#0'y'#0' '#0'h'#0'a'#0'v'#0'e'#0' '#0'b'#0'e'#0'e'#0'n'#0
+  +' '#0'f'#0'r'#0'o'#0'z'#0'e'#0'n'#0')'#0#3'Top'#3#235#0#5'Width'#3#136#0#7'C'
+  +'aption'#6#22'Wait after gui updates'#14'ParentShowHint'#8#8'ShowHint'#9#8'T'
+  +'abOrder'#2#7#0#0#9'TGroupBox'#29'gbUnexpectedExceptionHandling'#22'AnchorSi'
+  +'deLeft.Control'#7#9'GroupBox2'#21'AnchorSideTop.Control'#7#9'GroupBox2'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#9'GroupBox'
+  +'2'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2'`'#3'Top'
+  +#3'+'#2#5'Width'#3'e'#1#8'AutoSize'#9#17'BorderSpacing.Top'#2#2#7'Caption'#6
+  +';When CE starts default behaviour for unexpected breakpoints'#29'ChildSizin'
+  +'g.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#18'ChildSizing.Layout'#7
+  +#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#12'Cl'
+  +'ientHeight'#2'L'#11'ClientWidth'#3'a'#1#8'TabOrder'#2#8#0#12'TRadioButton'
+  +#29'miUnexpectedBreakpointsIgnore'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'W'
+  +'idth'#3'a'#1#7'Caption'#6#6'Ignore'#7'Checked'#9#8'OnChange'#7'#miUnexpecte'
+  +'dBreakpointsOptionChange'#8'TabOrder'#2#3#7'TabStop'#9#0#0#12'TRadioButton'
+  +#28'miUnexpectedBreakpointsBreak'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#19#5'W'
+  +'idth'#3'a'#1#7'Caption'#6#5'Break'#8'OnChange'#7'#miUnexpectedBreakpointsOp'
+  +'tionChange'#8'TabOrder'#2#0#0#0#12'TRadioButton,miUnexpectedBreakpointsBrea'
+  +'kWhenInsideRegion'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'&'#5'Width'#3'a'#1#7
+  +'Caption'#6'"Break when inside specific regions'#8'OnChange'#7'#miUnexpected'
+  +'BreakpointsOptionChange'#8'TabOrder'#2#1#0#0#9'TCheckBox'#27'cbAllocsAddToW'
+  +'atchedRegions'#4'Left'#2#0#6'Height'#2#19#3'Top'#2'9'#5'Width'#3'a'#1#7'Cap'
+  +'tion'#6';Automatically add allocated memory by CE as watched regions'#8'Tab'
+  +'Order'#2#2#0#0#0#9'TCheckBox'#9'cbSkipPDB'#22'AnchorSideLeft.Control'#7#9'G'
+  +'roupBox4'#21'AnchorSideTop.Control'#7#21'askforreplacewithnops'#18'AnchorSi'
+  +'deTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#19#3'Top'#3#130#0#5'Widt'
+  +'h'#3#5#2#7'Caption'#6'^Do not load external debug symbols like .PDB/.DBG fi'
+  +'les (Breaks tables that use these symbols)'#8'TabOrder'#2#9#0#0#9'TCheckBox'
+  +#12'cbUseIntelPT'#22'AnchorSideLeft.Control'#7#9'cbSkipPDB'#21'AnchorSideTop'
+  +'.Control'#7#9'cbSkipPDB'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6
+  +'Height'#2#19#3'Top'#3#149#0#5'Width'#3#29#1#7'Caption'#6'1Use intel-PT feat'
+  +'ure when the debugger is enabled'#8'OnChange'#7#18'cbUseIntelPTChange'#8'Ta'
+  +'bOrder'#2#10#0#0#9'TComboBox'#14'cbIPTTraceSize'#22'AnchorSideLeft.Control'
+  +#7#21'askforreplacewithnops'#21'AnchorSideTop.Control'#7#30'cbRecordIPTForFi'
+  +'ndWhatRoutines'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#3#158#0#6'Hei'
+  +'ght'#2#23#3'Top'#3#210#0#5'Width'#2'H'#7'Anchors'#11#5'akTop'#0#17'BorderSp'
+  +'acing.Top'#2#2#20'BorderSpacing.Bottom'#2#2#10'ItemHeight'#2#15#9'ItemIndex'
+  +#2#1#13'Items.Strings'#1#6#3'4KB'#6#3'8KB'#6#4'16KB'#6#4'32KB'#6#4'64KB'#6#5
+  +'128KB'#6#5'256KB'#6#5'512KB'#6#3'1MB'#6#3'2MB'#6#3'4MB'#6#3'8MB'#6#4'16MB'#6
+  +#4'32MB'#6#4'64MB'#6#5'128MB'#0#5'Style'#7#14'csDropDownList'#8'TabOrder'#2
+  +#11#4'Text'#6#3'8KB'#7'Visible'#8#0#0#6'TLabel'#13'lblMaxIPTSize'#22'AnchorS'
+  +'ideLeft.Control'#7#21'askforreplacewithnops'#21'AnchorSideTop.Control'#7#14
+  +'cbIPTTraceSize'#18'AnchorSideTop.Side'#7#9'asrCenter'#4'Left'#2#24#6'Height'
+  +#2#15#3'Top'#3#214#0#5'Width'#2'x'#7'Caption'#6#21'Maximum ipt tracesize'#11
+  +'ParentColor'#8#7'Visible'#8#0#0#9'TCheckBox'#30'cbRecordIPTForFindWhatRouti'
+  +'nes'#22'AnchorSideLeft.Control'#7#21'askforreplacewithnops'#21'AnchorSideTo'
+  +'p.Control'#7#19'cbHideIPTCapability'#18'AnchorSideTop.Side'#7#9'asrBottom'#4
+  +'Left'#2#24#6'Height'#2#19#4'Hint'#18#250#0#0#0'W'#0'h'#0'e'#0'n'#0' '#0's'#0
+  +'e'#0'l'#0'e'#0'c'#0't'#0'e'#0'd'#0' '#0'e'#0'v'#0'e'#0'r'#0'y'#0' '#0's'#0
+  +'i'#0'n'#0'g'#0'l'#0'e'#0' '#0'e'#0'l'#0'e'#0'm'#0'e'#0'n'#0't'#0' '#0'i'#0
+  +'n'#0' '#0'"'#0'f'#0'i'#0'n'#0'd'#0' '#0'w'#0'h'#0'a'#0't'#0' '#0'.'#0'.'#0
+  +'.'#0'"'#0' '#0'r'#0'o'#0'u'#0't'#0'i'#0'n'#0'e'#0's'#0' '#0'w'#0'i'#0'l'#0
+  +'l'#0' '#0'g'#0'e'#0't'#0' '#0'a'#0' '#0'c'#0'o'#0'p'#0'y'#0' '#0'o'#0'f'#0
+  +' '#0't'#0'h'#0'e'#0' '#0't'#0'r'#0'a'#0'c'#0'e'#0' '#0'f'#0'o'#0'r'#0' '#0
+  ,'t'#0'h'#0'a'#0't'#0' '#0't'#0'h'#0'r'#0'e'#0'a'#0't'#0' '#0'a'#0't'#0' '#0
+  +'t'#0'h'#0'a'#0't'#0' '#0't'#0'i'#0'm'#0'e'#0'.'#0' '#0'('#0'C'#0'a'#0'n'#0
+  +' '#0'e'#0'a'#0't'#0' '#0'a'#0' '#0'l'#0'o'#0't'#0' '#0'o'#0'f'#0' '#0'm'#0
+  +'e'#0'm'#0'o'#0'r'#0'y'#0' '#0'i'#0'f'#0' '#0't'#0'h'#0'i'#0's'#0' '#0'i'#0
+  +'s'#0' '#0'h'#0'i'#0'g'#0'h'#0')'#0#13#0#10#0'W'#0'h'#0'e'#0'n'#0' '#0'd'#0
+  +'e'#0's'#0'e'#0'l'#0'e'#0'c'#0't'#0'e'#0'd'#0' '#0'y'#0'o'#0'u'#0' '#0'c'#0
+  +'a'#0'n'#0' '#0'o'#0'n'#0'l'#0'y'#0' '#0'g'#0'e'#0't'#0' '#0't'#0'h'#0'e'#0
+  +' '#0't'#0'r'#0'a'#0'c'#0'e'#0' '#0'i'#0'n'#0'f'#0'o'#0'r'#0'm'#0'a'#0't'#0
+  +'i'#0'o'#0'n'#0' '#0'w'#0'h'#0'e'#0'n'#0' '#0's'#0't'#0'o'#0'p'#0'p'#0'e'#0
+  +'d'#0' '#0'o'#0'n'#0' '#0'a'#0' '#0'b'#0'r'#0'e'#0'a'#0'k'#0'p'#0'o'#0'i'#0
+  +'n'#0't'#0'.'#0' '#0#3'Top'#3#189#0#5'Width'#3'"'#1#17'BorderSpacing.Top'#2#2
+  +#7'Caption'#6'5Record trace in elements of "Find what ... " routines'#7'Chec'
+  +'ked'#9#8'OnChange'#7'$cbRecordIPTForFindWhatRoutinesChange'#14'ParentShowHi'
+  +'nt'#8#8'ShowHint'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#12#7'Visible'#8#0
+  +#0#9'TCheckBox'#19'cbHideIPTCapability'#21'AnchorSideTop.Control'#7#12'cbUse'
+  +'IntelPT'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#24#6'Height'#2#19#4
+  +'Hint'#6'5In case you really do not wish to be reminded of this'#3'Top'#3#168
+  +#0#5'Width'#3#160#0#7'Caption'#6#26'Hide IPT features from GUI'#14'ParentSho'
+  +'wHint'#8#8'ShowHint'#9#8'TabOrder'#2#13#0#0#0#0#9'TTabSheet'#5'tsLua'#7'Cap'
+  +'tion'#6#3'Lua'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#0#9'TCheckBo'
+  +'x'#29'cbLuaPassiveGarbageCollection'#22'AnchorSideLeft.Control'#7#5'tsLua'
+  +#21'AnchorSideTop.Control'#7#5'tsLua'#4'Left'#2#3#6'Height'#2#19#4'Hint'#6
+  +#128'Constantly runs a few steps of the garbage collector sequence. (Will ta'
+  +'ke a while till all garbage is cleaned if there is a lot)'#3'Top'#2#3#5'Wid'
+  +'th'#3#159#0#18'BorderSpacing.Left'#2#3#17'BorderSpacing.Top'#2#3#7'Caption'
+  +#6#26'Passive garbage collection'#7'Checked'#9#5'State'#7#9'cbChecked'#8'Tab'
+  +'Order'#2#0#0#0#9'TCheckBox'#22'cbLuaGarbageCollectAll'#22'AnchorSideLeft.Co'
+  +'ntrol'#7#29'cbLuaPassiveGarbageCollection'#21'AnchorSideTop.Control'#7#29'c'
+  +'bLuaPassiveGarbageCollection'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'
+  +#2#3#6'Height'#2#19#3'Top'#2#25#5'Width'#3#217#0#17'BorderSpacing.Top'#2#3#7
+  +'Caption'#6'%Collect all garbage every few seconds'#7'Checked'#9#5'State'#7#9
+  +'cbChecked'#8'TabOrder'#2#1#0#0#5'TEdit'#18'edtLuaCollectTimer'#22'AnchorSid'
+  +'eLeft.Control'#7#22'cbLuaGarbageCollectAll'#21'AnchorSideTop.Control'#7#22
+  +'cbLuaGarbageCollectAll'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#19#6
+  +'Height'#2#23#3'Top'#2','#5'Width'#2'>'#18'BorderSpacing.Left'#2#16#8'TabOrd'
+  +'er'#2#2#4'Text'#6#2'60'#0#0#6'TLabel'#7'Label17'#22'AnchorSideLeft.Control'
+  +#7#18'edtLuaCollectTimer'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSi'
+  +'deTop.Control'#7#18'edtLuaCollectTimer'#18'AnchorSideTop.Side'#7#9'asrCente'
+  +'r'#4'Left'#2'T'#6'Height'#2#15#3'Top'#2'0'#5'Width'#2','#18'BorderSpacing.L'
+  +'eft'#2#3#7'Caption'#6#7'Seconds'#11'ParentColor'#8#0#0#9'TCheckBox'#26'cbLu'
+  +'aOnlyCollectWhenLarger'#22'AnchorSideLeft.Control'#7#18'edtLuaCollectTimer'
+  +#21'AnchorSideTop.Control'#7#18'edtLuaCollectTimer'#18'AnchorSideTop.Side'#7
+  +#9'asrBottom'#4'Left'#2#19#6'Height'#2#19#3'Top'#2'F'#5'Width'#3#197#0#17'Bo'
+  +'rderSpacing.Top'#2#3#7'Caption'#6'"Only when the size is bigger than:'#8'Ta'
+  +'bOrder'#2#3#0#0#5'TEdit'#20'edtLuaMinCollectSize'#22'AnchorSideLeft.Control'
+  +#7#26'cbLuaOnlyCollectWhenLarger'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21
+  +'AnchorSideTop.Control'#7#26'cbLuaOnlyCollectWhenLarger'#18'AnchorSideTop.Si'
+  +'de'#7#9'asrCenter'#4'Left'#3#216#0#6'Height'#2#23#3'Top'#2'D'#5'Width'#2'9'
+  +#8'TabOrder'#2#4#4'Text'#6#3'200'#0#0#6'TLabel'#7'Label20'#22'AnchorSideLeft'
+  +'.Control'#7#20'edtLuaMinCollectSize'#19'AnchorSideLeft.Side'#7#9'asrBottom'
+  +#21'AnchorSideTop.Control'#7#20'edtLuaMinCollectSize'#18'AnchorSideTop.Side'
+  +#7#9'asrCenter'#4'Left'#3#20#1#6'Height'#2#15#3'Top'#2'H'#5'Width'#2'5'#18'B'
+  +'orderSpacing.Left'#2#3#7'Caption'#6#8'Megabyte'#11'ParentColor'#8#0#0#0#9'T'
+  +'TabSheet'#5'Extra'#7'Caption'#6#5'Extra'#12'ClientHeight'#3'0'#2#11'ClientW'
+  +'idth'#3#190#2#10'ImageIndex'#2#6#0#6'TLabel'#14'TauntOldOsUser'#4'Left'#2#0
+  +#6'Height'#2#15#3'Top'#3'!'#2#5'Width'#3#190#2#5'Align'#7#8'alBottom'#9'Alig'
+  +'nment'#7#8'taCenter'#7'Caption'#6'GI really recommend upgrading to Windows '
+  +'2000 or later mister Flintstone'#11'ParentColor'#8#7'Visible'#8#0#0#9'TGrou'
+  +'pBox'#9'GroupBox3'#4'Left'#2#5#6'Height'#2'M'#3'Top'#2#0#5'Width'#3#180#2#5
+  +'Align'#7#5'alTop'#8'AutoSize'#9#18'BorderSpacing.Left'#2#5#19'BorderSpacing'
+  +'.Right'#2#5#7'Caption'#6'LUse the following CE Kernel routines instead of t'
+  +'he original windows version'#12'ClientHeight'#2'9'#11'ClientWidth'#3#176#2#8
+  +'TabOrder'#2#0#0#9'TCheckBox'#25'cbKernelQueryMemoryRegion'#22'AnchorSideLef'
+  +'t.Control'#7#9'GroupBox3'#21'AnchorSideTop.Control'#7#9'GroupBox3'#4'Left'#2
+  ,#8#6'Height'#2#19#3'Top'#2#0#5'Width'#3#183#0#18'BorderSpacing.Left'#2#8#7'C'
+  +'aption'#6#28'Query memory region routines'#7'OnClick'#7#30'cbKernelQueryMem'
+  +'oryRegionClick'#8'TabOrder'#2#0#0#0#9'TCheckBox'#30'cbKernelReadWriteProces'
+  +'sMemory'#22'AnchorSideLeft.Control'#7#25'cbKernelQueryMemoryRegion'#21'Anch'
+  +'orSideTop.Control'#7#25'cbKernelQueryMemoryRegion'#18'AnchorSideTop.Side'#7
+  +#9'asrBottom'#4'Left'#2#8#6'Height'#2#19#3'Top'#2#19#5'Width'#3'2'#1#7'Capti'
+  +'on'#6'4Read/Write Process Memory  (Will cause slower scans)'#7'OnClick'#7#30
+  +'cbKernelQueryMemoryRegionClick'#8'TabOrder'#2#1#0#0#9'TCheckBox'#19'cbKerne'
+  +'lOpenProcess'#22'AnchorSideLeft.Control'#7#30'cbKernelReadWriteProcessMemor'
+  +'y'#21'AnchorSideTop.Control'#7#30'cbKernelReadWriteProcessMemory'#18'Anchor'
+  +'SideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#19#3'Top'#2'&'#5'Width'
+  +#2'\'#7'Caption'#6#12'Open Process'#8'OnChange'#7#25'cbKernelOpenProcessChan'
+  +'ge'#8'TabOrder'#2#2#0#0#9'TCheckBox'#16'cbDontOpenHandle'#22'AnchorSideLeft'
+  +'.Control'#7#19'cbKernelOpenProcess'#19'AnchorSideLeft.Side'#7#9'asrBottom'
+  +#21'AnchorSideTop.Control'#7#19'cbKernelOpenProcess'#18'AnchorSideTop.Side'#7
+  +#9'asrCenter'#4'Left'#2'l'#6'Height'#2#19#3'Top'#2'&'#5'Width'#3#168#0#18'Bo'
+  +'rderSpacing.Left'#2#8#7'Caption'#6#28'Do not try to obtain handles'#7'Enabl'
+  +'ed'#8#8'TabOrder'#2#3#7'Visible'#8#0#0#0#9'TCheckBox'#16'cbProcessWatcher'
+  +#22'AnchorSideLeft.Control'#7#9'GroupBox3'#21'AnchorSideTop.Control'#7#9'Gro'
+  +'upBox3'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#5#6'Height'#2#19#3
+  +'Top'#2'M'#5'Width'#3#200#0#7'Caption'#6'!Enable use of the Process Watcher'
+  +#8'OnChange'#7#22'cbProcessWatcherChange'#8'TabOrder'#2#1#0#0#9'TCheckBox'#18
+  +'cbInjectDLLWithAPC'#22'AnchorSideLeft.Control'#7#16'cbProcessWatcher'#21'An'
+  +'chorSideTop.Control'#7#16'cbProcessWatcher'#18'AnchorSideTop.Side'#7#9'asrB'
+  +'ottom'#4'Left'#2#5#6'Height'#2#19#3'Top'#2'p'#5'Width'#3#135#0#17'BorderSpa'
+  +'cing.Top'#2#16#7'Caption'#6#23'Use APC to inject dll''s'#8'TabOrder'#2#2#7
+  +'Visible'#8#0#0#9'TCheckBox'#9'CheckBox4'#4'Left'#2#0#6'Height'#2#19#3'Top'#3
+  +'('#1#5'Width'#3#181#0#7'Caption'#6#29'Use APC to create new threads'#8'TabO'
+  +'rder'#2#3#7'Visible'#8#0#0#9'TCheckBox'#28'cbProcessWatcherOpensHandles'#22
+  +'AnchorSideLeft.Control'#7#16'cbProcessWatcher'#19'AnchorSideLeft.Side'#7#9
+  +'asrBottom'#21'AnchorSideTop.Control'#7#16'cbProcessWatcher'#18'AnchorSideTo'
+  +'p.Side'#7#9'asrCenter'#4'Left'#3#213#0#6'Height'#2#19#3'Top'#2'M'#5'Width'#3
+  +#219#0#18'BorderSpacing.Left'#2#8#7'Caption'#6'$Open handle to processes on '
+  +'creation'#7'Checked'#9#7'Enabled'#8#5'State'#7#9'cbChecked'#8'TabOrder'#2#4
+  +#7'Visible'#8#0#0#0#9'TTabSheet'#7'tsTools'#7'Caption'#6#7'tsTools'#12'Clien'
+  +'tHeight'#3'0'#2#11'ClientWidth'#3#190#2#10'ImageIndex'#2#9#0#6'TPanel'#6'Pa'
+  +'nel2'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'Width'#3#190#2#5'Align'#7#5'a'
+  +'lTop'#8'AutoSize'#9#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#19#11'Cli'
+  +'entWidth'#3#190#2#8'TabOrder'#2#0#0#9'TCheckBox'#11'cbShowTools'#4'Left'#2#0
+  +#6'Height'#2#19#3'Top'#2#0#5'Width'#3#145#0#7'Caption'#6#22'Show ''tools'' m'
+  +'enu item'#7'Checked'#9#7'OnClick'#7#16'cbShowToolsClick'#5'State'#7#9'cbChe'
+  +'cked'#8'TabOrder'#2#0#0#0#0#6'TPanel'#6'Panel3'#4'Left'#3#216#1#6'Height'#3
+  +#29#2#3'Top'#2#19#5'Width'#3#230#0#5'Align'#7#7'alRight'#8'AutoSize'#9#10'Be'
+  +'velOuter'#7#6'bvNone'#12'ClientHeight'#3#29#2#11'ClientWidth'#3#230#0#20'Co'
+  +'nstraints.MinWidth'#3#230#0#8'TabOrder'#2#1#7'OnClick'#7#11'Panel3Click'#8
+  +'OnResize'#7#12'Panel3Resize'#0#6'TLabel'#18'lblApplicationTool'#22'AnchorSi'
+  +'deLeft.Control'#7#12'lblToolsName'#21'AnchorSideTop.Control'#7#12'edtToolsN'
+  +'ame'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#15#3'Top'
+  +#2'&'#5'Width'#2'{'#7'Caption'#6#19'Application/Command'#7'Enabled'#8#11'Par'
+  +'entColor'#8#0#0#6'TLabel'#11'lblShortcut'#22'AnchorSideLeft.Control'#7#18'e'
+  +'dtApplicationTool'#21'AnchorSideTop.Control'#7#18'edtApplicationTool'#18'An'
+  +'chorSideTop.Side'#7#9'asrBottom'#4'Left'#2#8#6'Height'#2#15#3'Top'#2'L'#5'W'
+  +'idth'#2'0'#7'Caption'#6#9'Shortcut:'#7'Enabled'#8#11'ParentColor'#8#0#0#6'T'
+  +'Label'#15'lblShortcutText'#22'AnchorSideLeft.Control'#7#11'lblShortcut'#21
+  +'AnchorSideTop.Control'#7#11'lblShortcut'#18'AnchorSideTop.Side'#7#9'asrBott'
+  +'om'#4'Left'#2#8#6'Height'#2#15#3'Top'#2'['#5'Width'#2'0'#7'Caption'#6#8'xxx'
+  +'xxxxx'#7'Enabled'#8#11'ParentColor'#8#0#0#6'TLabel'#12'lblToolsName'#22'Anc'
+  +'horSideLeft.Control'#7#6'Panel3'#21'AnchorSideTop.Control'#7#6'Panel3'#4'Le'
+  +'ft'#2#8#6'Height'#2#15#3'Top'#2#0#5'Width'#2' '#18'BorderSpacing.Left'#2#8#7
+  +'Caption'#6#4'Name'#7'Enabled'#8#11'ParentColor'#8#0#0#12'TSpeedButton'#10'O'
+  +'penButton'#21'AnchorSideTop.Control'#7#18'edtApplicationTool'#18'AnchorSide'
+  +'Top.Side'#7#9'asrCenter'#23'AnchorSideRight.Control'#7#6'Panel3'#20'AnchorS'
+  +'ideRight.Side'#7#9'asrBottom'#4'Left'#3#200#0#6'Height'#2#26#3'Top'#2'3'#5
+  +'Width'#2#27#7'Anchors'#11#5'akTop'#7'akRight'#0#19'BorderSpacing.Right'#2#3
+  ,#20'Constraints.MinWidth'#2#26#7'Enabled'#8#10'Glyph.Data'#10#218#2#0#0#214#2
+  +#0#0'BM'#214#2#0#0#0#0#0#0'6'#0#0#0'('#0#0#0#16#0#0#0#14#0#0#0#1#0#24#0#0#0#0
+  +#0#160#2#0#0#196#14#0#0#196#14#0#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#0#0
+  +#0#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0
+  +#132#132#0#132#132#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#0#0
+  +#0#0#255#255#0#0#0#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132
+  +#132#0#132#132#0#132#132#0#132#132#0#0#0#192#192#192#192#192#192#192#192#192
+  +#0#0#0#255#255#255#0#255#255#0#0#0#0#132#132#0#132#132#0#132#132#0#132#132#0
+  +#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#0#0#192#192#192#192#192
+  +#192#0#0#0#0#255#255#255#255#255#0#255#255#0#0#0#0#132#132#0#132#132#0#132
+  +#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#132#132#0#0#0#192
+  +#192#192#0#0#0#255#255#255#0#255#255#255#255#255#0#255#255#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#255#255#255#255#255
+  +#0#255#255#255#255#255#0#255#255#255#255#255#0#255#255#255#255#255#0#255#255
+  +#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#255
+  +#255#255#0#255#255#255#255#255#0#255#255#255#255#255#0#255#255#255#255#255#0
+  +#255#255#255#255#255#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#0#0#0#0#255#255#255#255#255#0#255#255#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#0#0#0#0#0#0#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#0#0#0#192#192#192
+  +#192#192#192#192#192#192#0#0#0#192#192#192#0#0#0#192#192#192#192#192#192#192
+  +#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192#192
+  +#192#192#192#192#0#0#0#0#0#0#0#0#0#192#192#192#192#192#192#192#192#192#192
+  +#192#192#7'OnClick'#7#15'OpenButtonClick'#8'ShowHint'#9#14'ParentShowHint'#8
+  +#0#0#5'TEdit'#18'edtApplicationTool'#22'AnchorSideLeft.Control'#7#18'lblAppl'
+  +'icationTool'#21'AnchorSideTop.Control'#7#18'lblApplicationTool'#18'AnchorSi'
+  +'deTop.Side'#7#9'asrBottom'#23'AnchorSideRight.Control'#7#10'OpenButton'#4'L'
+  +'eft'#2#8#6'Height'#2#23#3'Top'#2'5'#5'Width'#3#190#0#7'Anchors'#11#5'akTop'
+  +#6'akLeft'#7'akRight'#0#19'BorderSpacing.Right'#2#2#7'Enabled'#8#9'MaxLength'
+  +#3#255#0#8'OnChange'#7#24'edtApplicationToolChange'#8'TabOrder'#2#1#0#0#7'TB'
+  +'utton'#18'btnSetToolShortcut'#22'AnchorSideLeft.Control'#7#15'lblShortcutTe'
+  +'xt'#21'AnchorSideTop.Control'#7#15'lblShortcutText'#18'AnchorSideTop.Side'#7
+  +#9'asrBottom'#4'Left'#2#8#6'Height'#2#25#3'Top'#2'n'#5'Width'#2'Y'#8'AutoSiz'
+  +'e'#9#17'BorderSpacing.Top'#2#4#7'Caption'#6#12'Set shortcut'#7'Enabled'#8#7
+  +'OnClick'#7#23'btnSetToolShortcutClick'#8'TabOrder'#2#2#0#0#5'TEdit'#12'edtT'
+  +'oolsName'#22'AnchorSideLeft.Control'#7#12'lblToolsName'#21'AnchorSideTop.Co'
+  +'ntrol'#7#12'lblToolsName'#18'AnchorSideTop.Side'#7#9'asrBottom'#23'AnchorSi'
+  +'deRight.Control'#7#6'Panel3'#20'AnchorSideRight.Side'#7#9'asrBottom'#4'Left'
+  +#2#8#6'Height'#2#23#3'Top'#2#15#5'Width'#3#217#0#7'Anchors'#11#5'akTop'#6'ak'
+  +'Left'#7'akRight'#0#19'BorderSpacing.Right'#2#5#7'Enabled'#8#9'MaxLength'#3
+  +#255#0#8'OnChange'#7#18'edtToolsNameChange'#8'TabOrder'#2#0#0#0#12'TSpeedBut'
+  +'ton'#5'spbUp'#22'AnchorSideLeft.Control'#7#7'spbDown'#24'AnchorSideBottom.C'
+  +'ontrol'#7#7'spbDown'#4'Left'#2#0#6'Height'#2#28#3'Top'#3#200#1#5'Width'#2#21
+  +#7'Anchors'#11#6'akLeft'#8'akBottom'#0#20'BorderSpacing.Bottom'#2#2#7'Enable'
+  +'d'#8#10'Glyph.Data'#10'z'#1#0#0'v'#1#0#0'BMv'#1#0#0#0#0#0#0'v'#0#0#0'('#0#0
+  +#0' '#0#0#0#16#0#0#0#1#0#4#0#0#0#0#0#0#1#0#0#18#11#0#0#18#11#0#0#16#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#128#0#0#128#0#0#0#128#128#0#128#0#0#0#128#0#128#0#128#128#0
+  +#0#127#127#127#0#191#191#191#0#0#0#255#0#0#255#0#0#0#255#255#0#255#0#0#0#255
+  +#0#255#0#255#255#0#0#255#255#255#0'333'#0#3'333333w'#127'333333'#9#3'333333'
+  +#127#127'333333'#9#3'333333'#127#127'333333'#9#3'333333'#127#127'333333'#9#3
+  +'333333'#127#127'333333'#9#3'33333'#255#127#127#255#243'330'#0#9#0#0'3337wsw'
+  +'w'#243'330'#153#153#153#144'3337?3373333'#9#153#153#3'3333'#127'33'#127'333'
+  +'3'#9#153#153#3'3333s'#243'3s33330'#153#144'333337'#243'7'#243'33330'#153#144
+  +'333337?7333333'#9#3'333333'#127#127'333333'#9#3'333333ss333333033333337'#243
+  +'3333330333333373333'#9'NumGlyphs'#2#2#7'OnClick'#7#10'spbUpClick'#0#0#12'TS'
+  ,'peedButton'#7'spbDown'#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSide'
+  +'Bottom.Side'#7#9'asrBottom'#4'Left'#2#0#6'Height'#2#27#3'Top'#3#230#1#5'Wid'
+  +'th'#2#21#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Enabled'#8#10'Glyph.Data'
+  +#10'z'#1#0#0'v'#1#0#0'BMv'#1#0#0#0#0#0#0'v'#0#0#0'('#0#0#0' '#0#0#0#16#0#0#0
+  +#1#0#4#0#0#0#0#0#0#1#0#0#18#11#0#0#18#11#0#0#16#0#0#0#0#0#0#0#0#0#0#0#0#0#128
+  +#0#0#128#0#0#0#128#128#0#128#0#0#0#128#0#128#0#128#128#0#0#127#127#127#0#191
+  +#191#191#0#0#0#255#0#0#255#0#0#0#255#255#0#255#0#0#0#255#0#255#0#255#255#0#0
+  +#255#255#255#0'333033333337'#243'333333033333337?333333'#9#3'333333'#127#127
+  +'333333'#9#3'333333ss'#243'33330'#153#144'333337'#243'7'#243'33330'#153#144
+  +'33333737?3333'#9#153#153#3'3333'#127'33'#127'3333'#9#153#153#3'3333s33s'#243
+  +'330'#153#153#153#144'3337'#255#255'?'#247#243'330'#0#9#0#0'3337w'#127'ww333'
+  +'33'#9#3'333333'#127#127'333333'#9#3'333333'#127#127'333333'#9#3'333333'#127
+  +#127'333333'#9#3'333333'#127#127'333333'#9#3'333333'#127#127'333333'#0#3'333'
+  +'333ws333'#9'NumGlyphs'#2#2#7'OnClick'#7#12'spbDownClick'#0#0#0#6'TPanel'#6
+  +'Panel5'#4'Left'#2#0#6'Height'#3#29#2#3'Top'#2#19#5'Width'#3#216#1#5'Align'#7
+  +#8'alClient'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#29#2#11'ClientWid'
+  +'th'#3#216#1#8'TabOrder'#2#2#0#6'TPanel'#6'Panel4'#4'Left'#2#0#6'Height'#2'!'
+  +#3'Top'#3#252#1#5'Width'#3#216#1#5'Align'#7#8'alBottom'#8'AutoSize'#9#10'Bev'
+  +'elOuter'#7#6'bvNone'#12'ClientHeight'#2'!'#11'ClientWidth'#3#216#1#8'TabOrd'
+  +'er'#2#0#0#7'TButton'#10'btnToolNew'#22'AnchorSideLeft.Control'#7#6'Panel4'
+  +#21'AnchorSideTop.Control'#7#6'Panel4'#4'Left'#2#4#6'Height'#2#25#3'Top'#2#4
+  +#5'Width'#2'\'#8'AutoSize'#9#18'BorderSpacing.Left'#2#4#17'BorderSpacing.Top'
+  +#2#4#20'BorderSpacing.Bottom'#2#4#7'Caption'#6#3'New'#20'Constraints.MinWidt'
+  +'h'#2'\'#7'OnClick'#7#15'btnToolNewClick'#8'TabOrder'#2#0#0#0#7'TButton'#13
+  +'btnToolDelete'#22'AnchorSideLeft.Control'#7#10'btnToolNew'#19'AnchorSideLef'
+  +'t.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#10'btnToolNew'#4'Left'#2
+  +'d'#6'Height'#2#25#3'Top'#2#4#5'Width'#2'\'#8'AutoSize'#9#18'BorderSpacing.L'
+  +'eft'#2#4#19'BorderSpacing.Right'#2#4#20'BorderSpacing.Bottom'#2#4#7'Caption'
+  +#6#6'Delete'#20'Constraints.MinWidth'#2'\'#7'OnClick'#7#18'btnToolDeleteClic'
+  +'k'#8'TabOrder'#2#1#0#0#0#9'TListView'#7'lvTools'#4'Left'#2#0#6'Height'#3#252
+  +#1#3'Top'#2#0#5'Width'#3#216#1#5'Align'#7#8'alClient'#7'Columns'#14#1#7'Capt'
+  +'ion'#6#4'Name'#5'Width'#2'J'#0#1#7'Caption'#6#11'Application'#5'Width'#3#234
+  +#0#0#1#8'AutoSize'#9#7'Caption'#6#8'Shortcut'#5'Width'#2'<'#0#0#13'HideSelec'
+  +'tion'#8#8'ReadOnly'#9#9'RowSelect'#9#8'TabOrder'#2#1#9'ViewStyle'#7#8'vsRep'
+  +'ort'#7'OnClick'#7#12'lvToolsClick'#0#0#0#0#9'TTabSheet'#10'CodeFinder'#7'Ca'
+  +'ption'#6#10'CodeFinder'#12'ClientHeight'#3'0'#2#11'ClientWidth'#3#190#2#10
+  +'ImageIndex'#2#4#0#9'TCheckBox'#19'cbHandleBreakpoints'#4'Left'#2#15#6'Heigh'
+  +'t'#2#19#3'Top'#2#9#5'Width'#3#213#0#7'Caption'#6'"Handle beakpoints not cau'
+  +'sed by CE'#7'OnClick'#7#14'CheckBox1Click'#8'TabOrder'#2#0#0#0#0#9'TTabShee'
+  +'t'#9'tsSigning'#7'Caption'#6#9'tsSigning'#12'ClientHeight'#3'0'#2#11'Client'
+  +'Width'#3#190#2#0#9'TCheckBox'#17'cbAlwaysSignTable'#22'AnchorSideLeft.Contr'
+  +'ol'#7#9'tsSigning'#21'AnchorSideTop.Control'#7#9'tsSigning'#4'Left'#2#2#6'H'
+  +'eight'#2#19#3'Top'#2#2#5'Width'#3#221#0#18'BorderSpacing.Left'#2#2#17'Borde'
+  +'rSpacing.Top'#2#2#7'Caption'#6'$Always sign Cheat Tables when saving'#8'Tab'
+  +'Order'#2#0#0#0#9'TCheckBox'#22'cbAlwaysAskForPassword'#22'AnchorSideLeft.Co'
+  +'ntrol'#7#17'cbAlwaysSignTable'#21'AnchorSideTop.Control'#7#17'cbAlwaysSignT'
+  +'able'#18'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#2#6'Height'#2#19#3'To'
+  +'p'#2#21#5'Width'#3#222#0#7'Caption'#6'$Always ask for password when signing'
+  +#8'TabOrder'#2#1#0#0#0#0#0#6'TPanel'#6'Panel6'#4'Left'#2#0#6'Height'#2'%'#3
+  +'Top'#3'N'#2#5'Width'#3'a'#3#5'Align'#7#8'alBottom'#8'AutoSize'#9#10'BevelOu'
+  +'ter'#7#6'bvNone'#12'ClientHeight'#2'%'#11'ClientWidth'#3'a'#3#8'TabOrder'#2
+  +#1#8'OnResize'#7#12'Panel6Resize'#0#6'TLabel'#10'AboutLabel'#23'AnchorSideRi'
+  +'ght.Control'#7#6'Panel6'#20'AnchorSideRight.Side'#7#9'asrBottom'#24'AnchorS'
+  +'ideBottom.Control'#7#6'Panel6'#21'AnchorSideBottom.Side'#7#9'asrBottom'#6'C'
+  +'ursor'#7#11'crHandPoint'#4'Left'#3'/'#3#6'Height'#2#15#3'Top'#2#22#5'Width'
+  +#2'2'#7'Anchors'#11#7'akRight'#8'akBottom'#0#7'Caption'#6#8'About CE'#10'Fon'
+  +'t.Color'#7#6'clBlue'#10'Font.Style'#11#11'fsUnderline'#0#11'ParentColor'#8
+  +#10'ParentFont'#8#7'OnClick'#7#15'AboutLabelClick'#0#0#6'TPanel'#6'Panel9'#22
+  +'AnchorSideLeft.Control'#7#6'Panel6'#19'AnchorSideLeft.Side'#7#9'asrCenter'
+  +#21'AnchorSideTop.Control'#7#6'Panel6'#4'Left'#3'a'#1#6'Height'#2#25#3'Top'#2
+  +#6#5'Width'#3#158#0#8'AutoSize'#9#17'BorderSpacing.Top'#2#6#20'BorderSpacing'
+  +'.Bottom'#2#6#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#25#11'ClientWidt'
+  +'h'#3#158#0#8'TabOrder'#2#0#0#7'TButton'#5'btnOK'#22'AnchorSideLeft.Control'
+  +#7#6'Panel9'#21'AnchorSideTop.Control'#7#6'Panel9'#4'Left'#2#0#6'Height'#2#25
+  ,#3'Top'#2#0#5'Width'#2'K'#8'AutoSize'#9#7'Caption'#6#2'OK'#20'Constraints.Mi'
+  +'nWidth'#2'K'#7'OnClick'#7#10'btnOKClick'#8'TabOrder'#2#0#0#0#7'TButton'#9'b'
+  +'tnCancel'#22'AnchorSideLeft.Control'#7#5'btnOK'#19'AnchorSideLeft.Side'#7#9
+  +'asrBottom'#21'AnchorSideTop.Control'#7#6'Panel9'#4'Left'#2'S'#6'Height'#2#25
+  +#3'Top'#2#0#5'Width'#2'K'#8'AutoSize'#9#18'BorderSpacing.Left'#2#8#6'Cancel'
+  +#9#7'Caption'#6#6'Cancel'#20'Constraints.MinWidth'#2'K'#11'ModalResult'#2#2#7
+  +'OnClick'#7#14'btnCancelClick'#8'TabOrder'#2#1#0#0#0#0#10'TPopupMenu'#13'def'
+  +'aultbuffer'#4'Left'#2#16#3'Top'#3#8#1#0#9'TMenuItem'#8'Default1'#7'Caption'
+  +#6#7'Default'#7'OnClick'#7#13'Default1Click'#0#0#0#11'TOpenDialog'#11'OpenDi'
+  +'alog1'#10'DefaultExt'#6#4'.DLL'#6'Filter'#6'"Cheat Engine Plugins (*.dll)|*'
+  +'.dll'#4'Left'#2'4'#3'Top'#3#8#1#0#0#11'TOpenDialog'#11'OpenDialog2'#10'Defa'
+  +'ultExt'#6#4'.exe'#6'Filter'#6#25'Application (*.exe)|*.exe'#4'Left'#2'4'#3
+  +'Top'#3'`'#1#0#0#22'TSelectDirectoryDialog'#22'SelectDirectoryDialog1'#4'Lef'
+  +'t'#2'('#3'Top'#3#224#0#0#0#11'TFontDialog'#11'FontDialog1'#11'MinFontSize'#2
+  +#0#11'MaxFontSize'#2#0#4'Left'#3'!'#3#3'Top'#3#143#0#0#0#10'TPopupMenu'#11'm'
+  +'iLanguages'#4'Left'#3#24#2#3'Top'#3#240#0#0#9'TMenuItem'#9'MenuItem1'#7'Cap'
+  +'tion'#6#7'Refresh'#7'OnClick'#7#14'MenuItem1Click'#0#0#0#0
+]);

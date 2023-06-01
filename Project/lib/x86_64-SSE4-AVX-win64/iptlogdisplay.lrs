@@ -1,0 +1,35 @@
+LazarusResources.Add('TfrmIPTLogDisplay','FORMDATA',[
+  'TPF0'#17'TfrmIPTLogDisplay'#16'frmIPTLogDisplay'#4'Left'#3#0#2#6'Height'#3
+  +#238#0#3'Top'#3#131#0#5'Width'#3#196#1#7'Caption'#6#15'IPT Log Display'#12'C'
+  +'lientHeight'#3#238#0#11'ClientWidth'#3#196#1#4'Menu'#7#8'MainMenu'#7'OnClos'
+  +'e'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestro'
+  +'y'#6'OnShow'#7#8'FormShow'#8'Position'#7#17'poOwnerFormCenter'#10'LCLVersio'
+  +'n'#6#7'2.2.2.0'#0#12'TProgressBar'#11'Progressbar'#4'Left'#2#0#6'Height'#2
+  +#20#3'Top'#3#218#0#5'Width'#3#196#1#5'Align'#7#8'alBottom'#8'TabOrder'#2#0#7
+  +'Visible'#8#0#0#9'TListView'#9'lvResults'#4'Left'#2#0#6'Height'#3#174#0#3'To'
+  +'p'#2','#5'Width'#3#196#1#5'Align'#7#8'alClient'#19'AutoWidthLastColumn'#9#7
+  +'Columns'#14#1#7'Caption'#6#9'Frequency'#5'Width'#2'F'#0#1#7'Caption'#6#7'Ad'
+  +'dress'#5'Width'#2'9'#0#1#7'Caption'#6#11'Instruction'#5'Width'#3'A'#1#0#0#11
+  +'ColumnClick'#8#13'HideSelection'#8#9'OwnerData'#9#8'ReadOnly'#9#9'RowSelect'
+  +#9#8'TabOrder'#2#1#9'ViewStyle'#7#8'vsReport'#6'OnData'#7#13'lvResultsData'
+  +#10'OnDblClick'#7#17'lvResultsDblClick'#0#0#6'TPanel'#11'ButtonPanel'#4'Left'
+  +#2#0#6'Height'#2','#3'Top'#2#0#5'Width'#3#196#1#5'Align'#7#5'alTop'#8'AutoSi'
+  +'ze'#9#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2','#11'ClientWidth'#3#196
+  +#1#8'TabOrder'#2#2#0#7'TButton'#12'btnFetchMore'#22'AnchorSideLeft.Control'#7
+  +#11'ButtonPanel'#21'AnchorSideTop.Control'#7#11'ButtonPanel'#4'Left'#2#4#6'H'
+  +'eight'#2#25#3'Top'#2#4#5'Width'#2'V'#8'AutoSize'#9#18'BorderSpacing.Left'#2
+  +#4#17'BorderSpacing.Top'#2#4#7'Caption'#6#10'Fetch more'#7'OnClick'#7#17'btn'
+  +'FetchMoreClick'#8'TabOrder'#2#0#0#0#6'TLabel'#8'lblCount'#22'AnchorSideLeft'
+  +'.Control'#7#11'ButtonPanel'#21'AnchorSideTop.Control'#7#12'btnFetchMore'#18
+  +'AnchorSideTop.Side'#7#9'asrBottom'#4'Left'#2#4#6'Height'#2#15#3'Top'#2#29#5
+  +'Width'#2#6#18'BorderSpacing.Left'#2#4#7'Caption'#6#1'0'#11'ParentColor'#8#0
+  +#0#7'TButton'#11'btnFetchAll'#22'AnchorSideLeft.Control'#7#12'btnFetchMore'
+  +#19'AnchorSideLeft.Side'#7#9'asrBottom'#21'AnchorSideTop.Control'#7#11'Butto'
+  +'nPanel'#4'Left'#2'^'#6'Height'#2#25#3'Top'#2#4#5'Width'#2'H'#8'AutoSize'#9
+  +#18'BorderSpacing.Left'#2#4#17'BorderSpacing.Top'#2#4#7'Caption'#6#9'Fetch A'
+  +'ll'#7'OnClick'#7#16'btnFetchAllClick'#8'TabOrder'#2#1#0#0#0#9'TMainMenu'#8
+  +'MainMenu'#4'Left'#3#138#0#3'Top'#2#6#0#9'TMenuItem'#6'miFile'#7'Caption'#6#4
+  +'File'#7'Visible'#8#0#9'TMenuItem'#12'miSavetoFile'#7'Caption'#6#12'Save to '
+  +'file'#0#0#0#0#6'TTimer'#6'Timer1'#7'Enabled'#8#8'Interval'#3#250#0#7'OnTime'
+  +'r'#7#11'Timer1Timer'#4'Left'#3#185#0#3'Top'#2#127#0#0#0
+]);
