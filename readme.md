@@ -43,6 +43,10 @@ Any many more if you find out how yourself
 
 [999 Engine x64 O4 AVX2](https://www.virustotal.com/gui/file/8ce1b2457490a695b8289b267265ecafbcd4ce4f3720b3d978965a9a8f159a58?nocache=1) | **1/71**
 
+### Installer ("Detected" as Cheat Engine):
+
+[Installer]("https://www.virustotal.com/gui/file/d51781ffb0f93f359bef57cb48cc3af4c4ab0edd6e69622a64cd27facdacaecd?nocache=1") | **6/70**
+
 <h2 align="center">Compiling yourself</h2>
 
 ### Required:
