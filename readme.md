@@ -45,7 +45,7 @@ Any many more if you find out how yourself
 
 ### Installer ("Detected" as Cheat Engine):
 
-[Installer]("https://www.virustotal.com/gui/file/d51781ffb0f93f359bef57cb48cc3af4c4ab0edd6e69622a64cd27facdacaecd?nocache=1") | **6/70**
+[Installer](https://www.virustotal.com/gui/file/d51781ffb0f93f359bef57cb48cc3af4c4ab0edd6e69622a64cd27facdacaecd?nocache=1) | **6/70**
 
 <h2 align="center">Compiling yourself</h2>
 
